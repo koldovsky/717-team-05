@@ -1,0 +1,126 @@
+/* 2 Valentyna Ustimenko start Section - Brief History */
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.history {
+}
+
+.history__container {
+    width: 1170px;
+    margin: 0 auto;
+}
+.history__subtitle {
+    color: #f6c43d;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+}
+.history__title {
+    font-size: 65px;
+    color: #222;
+    line-height: 1;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+}
+.history__description {
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 0.022em;
+    color: #898989;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 60px;
+}
+.history__wrapper {
+}
+.history__items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.history__item {
+    min-height: 473px;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 0 5px 10px 7px rgb(136 140 133 / 5%);
+    padding: 60px 70px;
+    margin-bottom: 30px;
+
+    display: flex;
+}
+.history__item:nth-last-child(){
+    margin-bottom: 0;
+}
+.history__item:nth-child(2n) {
+    flex-direction: row-reverse;
+}
+.history__item-image{
+}
+.history__item-body {
+    padding: 60px 70px;
+}
+.history__item-title {
+    font-size: 90px;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+}
+.history__item:nth-child(2n+1) .history__item-title {
+    color: #fff;
+}
+.history__item:nth-child(2n) .history__item-title {
+    color: #222;
+}
+.history__item-divider {
+    margin-bottom: 15px;
+    width: 41px;
+    height: 3px;
+}
+.history__item:nth-child(2n+1) .history__item-divider {
+    background-color: #f6c43d;
+}
+.history__item:nth-child(2n) .history__item-divider {
+    background-color: #1088e4;
+} 
+.history__item-description {
+    font-size: 17px;
+    line-height: 1.62;
+    font-family: Ubuntu,sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #898989;
+    text-transform: none;
+}
+.history__item:nth-child(2) {
+    background-color: rgb(252, 252, 252);
+}
+.history__item:nth-child(3) {
+    background-color: rgb(5, 7, 28);
+}
+.history__item:nth-child(4) {
+    background-color: rgb(221, 226, 233);
+}
+.history__item:nth-child(1) {
+    background-color: rgb(2, 2, 4);
+}
+/* Valentyna Ustimenko end */
