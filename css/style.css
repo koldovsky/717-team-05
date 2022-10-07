@@ -147,10 +147,7 @@ padding-top: 25px;
     font-size: 16px;
     padding-top: 15px;
 }
-.perelik{
-    display: flex;
-    flex-direction: row-reverse;
-}
+
 .photo-of-cars{
     padding-top: 25px;
     border-radius: 5px;
