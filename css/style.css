@@ -124,3 +124,42 @@ html {
     background-color: rgb(2, 2, 4);
 }
 /* Valentyna Ustimenko end */
+/*Shulevka Kateryna*/
+.car-of-the-month{
+    background-color: black;
+}
+.best-offer{
+    padding-top: 40px;
+   font-size: 20px;
+   color: rgb(247, 225, 34); 
+   text-align: center;
+}
+.Cars-of-the-month{
+font-weight: 600;
+font-size: 24px;
+color: #fff;
+text-align: center;
+padding-top: 25px;
+}
+.paragraph-of-cars{
+    color: rgba(161, 154, 154, 0.144);
+    text-align: center;
+    font-size: 16px;
+    padding-top: 15px;
+}
+.photo-of-cars{
+    padding-top: 25px;
+    border-radius: 5px;
+}
+.name-of-cars{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.description-of-car{
+color: rgba(161, 154, 154, 0.144);
+text-align: center;
+font-size: 16px;
+padding-top: 15px;
+}
