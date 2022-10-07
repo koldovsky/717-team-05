@@ -142,14 +142,19 @@ text-align: center;
 padding-top: 25px;
 }
 .paragraph-of-cars{
-    color: rgba(161, 154, 154, 0.144);
+    color: rgba(241, 236, 236, 0.144);
     text-align: center;
     font-size: 16px;
     padding-top: 15px;
 }
+.perelik{
+    display: flex;
+    flex-direction: row-reverse;
+}
 .photo-of-cars{
     padding-top: 25px;
     border-radius: 5px;
+    
 }
 .name-of-cars{
     color: #fff;
@@ -158,8 +163,8 @@ padding-top: 25px;
     padding-top: 10px;
 }
 .description-of-car{
-color: rgba(161, 154, 154, 0.144);
+color: rgba(241, 236, 236, 0.144);
 text-align: center;
-font-size: 16px;
+font-size: 18px;
 padding-top: 15px;
 }
