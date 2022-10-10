@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+a, p, span {
+    color: inherit;
+}
+ 
+h1, h2 {
+    color: var(--title-text-color);
+}
+
+.header__menu__itam:hover {
+    color: var(--title-text-color);
+}
+
+.social__icon {
+    color: var(--title-text-color);
+}
+
+.divider, .NYC {
+    color: var(--divider-color)  ;
+}
