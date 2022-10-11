@@ -5,15 +5,18 @@
     text-decoration: none;
 }
 
-a, p, span {
+a,
+p,
+span {
     color: inherit;
 }
- 
-h1, h2 {
+
+h1,
+h2 {
     color: var(--title-text-color);
 }
 
-.header__menu__itam:hover {
+.header__menu__item:hover {
     color: var(--title-text-color);
 }
 
@@ -21,6 +24,7 @@ h1, h2 {
     color: var(--title-text-color);
 }
 
-.divider, .NYC {
-    color: var(--divider-color)  ;
+.divider,
+.nuc {
+    color: var(--divider-color);
 }
