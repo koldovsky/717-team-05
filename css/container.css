@@ -1,0 +1,33 @@
+/* Lora Yaremchuk start Section- Pick up your car */
+.pickup{
+    background-color: #222;
+    text-align: center;
+}
+
+.pickup__subtitle{
+    color: #f6c43d;
+}
+
+.divider{
+    color: #f6c43d;
+}
+
+.pickup__title{
+    color: #fff;
+}
+
+.header__description{
+    color: rgba(255,255,255,0.67);
+}
+
+.gallery__upper{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    
+}
+
+.gallery__bottom{
+    display: grid;
+    grid-template-columns: 300px 300px;
+   
+}
