@@ -1,0 +1,7 @@
+/* Inna Yaremchuk */
+
+.executive-cars { 
+    background-image: url(../img/executive-background.png);
+    background-size: cover;
+    min-width: 320;
+}

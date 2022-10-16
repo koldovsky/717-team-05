@@ -1,130 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+a,
+p,
+span {
+    color: inherit;
+}
+
 h1,
 h2 {
-    color: var(--first-accent-color);
-}
-
-body {
-    background-image: url(/img/header-background.webp);
-    background-repeat: no-repeat;
-    background-position-x: center;
-}
-
-.header{
-    margin-left: 35px;
-}
-
-.header__logo__container {
-    max-width: 97px;
-    margin-top: 25px;
-}
-
-.header__menu {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-
-.header__menu__item>a {
-    font-size: 17px;
-    font-weight: 500;
-    text-decoration: none;
-    color: var(--dark-text-color);
+    color: var(--title-text-color);
 }
 
 .header__menu__item:hover {
-    color: var(--first-accent-color);
-}
-
-.container__social__icon {
-    display: flex;
-    justify-content: center;
-
+    color: var(--title-text-color);
 }
 
 .social__icon {
-    max-width: 30px;
+    color: var(--title-text-color);
 }
 
-.title__wrapper {
-    padding: 90px 0;
-    display: flex;
-    flex-direction: column;
-}
-
-.title__divider,
-.title__nuc {
-    color: var(--second-accent-color);
-    margin-right: 5px;
-}
-
-.title__before {
-    font-size: 18px;
-    font-weight: 700;
-}
-
-
-
-.title__main {
-    font-family: 'Barlow Condensed', sans-serif;
-    overflow-wrap: break-word;
-    font-size: 200px;
-    width: 165px;
-    font-weight: 600;
-    display: inline-flex;
-    margin-top: 25px;
-
-}
-
-.title__buton {
-    width: 305px;
-    height: 68.5px;
-    margin-top: 55px;
-    margin-bottom: 30px;
-    font-size: 16.5px;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
-}
-
-
-.title__buton>a {
-    background-color: var(--second-accent-color);
-    color: var(--snow-color);
-    font-size: 16.5px;
-    font-weight: 700;
-    width: 165px;
-    height: 48.5px;
-    border-radius: 25px;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.title__buton>a:hover {
-    background-color: var(--first-accent-color);
-}
-
-.pricin__roll {
-    width: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: right; 
-}
-
-.pricin__roll>a {
-    color: var(--first-accent-color);
-    display: flex;
-    text-decoration: none;
-}
-
-.pricin__roll:hover {
-    text-decoration: underline;
-}
-
-.pricin__roll>a>img {
-    width: 18px;
-   
+.divider,
+.nuc {
+    color: var(--divider-color);
 }
