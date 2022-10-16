@@ -17,33 +17,43 @@ body {
     max-width: 97px;
     margin-top: 25px;
 }
-
-.header__menu {
-
+.header__nav__container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.header__nav__list {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
-.header__menu__item>a {
+.header__nav__list>li{
+    font-size: 17px;
+    margin: 10px 0;
+}
+
+.header__nav__item>a {
     font-size: 17px;
     font-weight: 500;
     text-decoration: none;
     color: var(--dark-text-color);
 }
 
-.header__menu__item:hover {
+.header__nav__item:hover {
     color: var(--first-accent-color);
 }
 
 .container__social__icon {
+    width: 120px;
     display: flex;
-    justify-content: center;
-
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .social__icon {
+    margin-top: 90px;
     max-width: 30px;
 }
 
