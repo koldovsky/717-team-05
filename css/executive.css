@@ -39,11 +39,12 @@
 }
 
 .execiutive-cars__title {
-    font-size: 65px;
+    font-size: 52px;
     font-weight: 700;
-    line-height: 65px;
+    line-height: 52px;
     text-align: center;
     margin-top: 30px;
+    color: var(--dark-text-color)
 }
 
 .executive-cars__text {
@@ -53,6 +54,14 @@
     line-height: 29.7px;
     text-align: center;
     margin-block-start: 15px;
+}
+
+.executive__button {
+    display: flex;
+    font-size: 17px;
+    justify-content: center;
+    margin-top: 40px;
+
 }
 
 .executive__btn { 
@@ -67,6 +76,11 @@
     line-height: 16.5px;
     text-align: center;
     width: 144.125px;
+    margin: 10px 10px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .executive__btn:hover {
@@ -84,7 +98,12 @@
     letter-spacing: 0.165px;
     line-height: 16.5px;
     text-align: center;
-    width: 144.125px;
+    width: 175.55px;
+    margin: 10px 10px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .executive__btn-offer:hover {
