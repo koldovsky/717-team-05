@@ -1,5 +1,6 @@
 /* Lora Yaremchuk start Section- Pick up your car */
 .pickup{
+    padding: 50px 0 90px 0;
     background-color: #222;
     text-align: center;
     
@@ -24,13 +25,16 @@
 }
 
 .gallery__upper{
-    display: grid;
+    width: 350px;
+    display: flex;
     grid-template-columns: 300px 300px;
+ 
      
 }
 
 .gallery__bottom{
-    display: grid;
+    width: 350px;
+    display: flex;
     grid-template-columns: 300px 300px;
    
 }
