@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Ubuntu:wght@400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;1,600&family=Quicksand:wght@400;700&family=Ubuntu:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&display=swap');
 
 *,
 *::before,
@@ -11,9 +12,11 @@
 
 :root {
     font-family: 'Ubuntu', sans-serif;
-    --title-text-color: #f6c43d;
-    --text-color: #222;
-    --divider-color: #1088e4;
+    --first-accent-color: #f6c43d;
+    --second-accent-color: #1088e4;
+    --snow-color: #fff;
+    --dark-text-color: #222;
+    --light-text-color: #898989;
 }
 
 h1,
@@ -25,4 +28,9 @@ h3 {
 img {
     width: 100%;
     display: block;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
