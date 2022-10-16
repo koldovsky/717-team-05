@@ -1,6 +1,9 @@
 .headquater{
    color: #f6c43d;
 }
+.contacts__header{
+    color: #222;
+}
 
 .facebook__icon{
     display: flex;
