@@ -31,32 +31,60 @@
     line-height: 30px;
 }
 .staff__position {
+    margin: 50px 15px 0 15px;
 }
 .staff__position-ceo {
 }
 .staff__position-image {
+    margin: 50px 0 0 0;
+    padding: 0 15px;
 }
 .staff__position-name {
+    margin: 20px 0 0 0;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 15px;
 }
 .staff__position-line {
+    height: 3px;
+    text-align: center;
+    background-color: var(--first-accent-color);
+    display: flex;
+    width: 7%;
+    margin: auto;
 }
 .staff__position-appointment {
+    padding-top: 15px;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--light-text-color);
+
 }
 .staff__position-socials {
+    margin-top: 30px;
     display: flex;
+    justify-content: center;
 }
 .facebook {
 }
 .facebook-icon {
+    margin: 0 5px 10px 5px;
     width: 50px;
 }
 .instagram {
 }
 .instagram-icon {
+    margin: 0 5px 10px 5px;
+    width: 50px;
 }
 .youtube {
 }
 .youtube-icon {
+    margin: 0 5px 10px 5px;
+    width: 50px;
 }
 .staff__position-cto {
 }
