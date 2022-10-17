@@ -17,3 +17,44 @@
     display: flex;
     flex: column;
 }
+
+.testimonials-description {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color: #222;
+    line-height: 1.65px;
+}
+
+.testimonial-image {
+    border-radius: 50%;
+}
+
+.testimonial-name {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size:  28px;
+    font-weight: bold;
+    line-height: 1.3px;
+    color: #222;
+}
+
+.testimonial-position {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    color: #b3b3b3;
+    line-height: 1.6px;
+}
+
+.testimonial-description {
+    
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    color: #898989;
+    line-height: 1.62px;
+}
+
+.testimonial-date {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    color: #b3b3b3;
+    line-height: 1.6px;
+}
