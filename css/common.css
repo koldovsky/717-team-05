@@ -39,3 +39,18 @@ body{
     background-color: var(--background-color);
 }
 
+h4 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #f6c43d;
+    line-height: 1,6 px;
+}
+
+h5 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size:  65px;
+    font-weight: bold;
+    line-height: 1 px;
+    color: #222;
+}
