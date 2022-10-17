@@ -1,6 +1,7 @@
 .testimonials-general {
     display: flex;
-    flex: column;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .testimonial-1 {
@@ -57,4 +58,12 @@
     font-size: 14px;
     color: #b3b3b3;
     line-height: 1.6px;
+}
+
+.testimonials-general {
+    margin-top: 110px;
+}
+
+.all-testimonials {
+    margin-bottom: 100px;
 }
