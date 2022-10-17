@@ -1,0 +1,107 @@
+/* Roman Romaniv */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,700;1,400&family=Open+Sans&family=Ubuntu&display=swap');
+@import url(reset.css);
+
+
+.footer {
+    width: 100%;
+    background-color: #222;
+}
+
+
+.footer__nav {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 1px solid #4E4E4E;
+}
+
+.footer__logo img {
+    width: 103px;
+    margin-bottom: 40px;
+}
+
+.footer__menu nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__menu nav a {
+    font-family: Ubuntu, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+
+    text-align: center;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.footer__menu nav a:last-child {
+    margin-bottom: 30px;
+}
+
+.all__reserved {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px 0;
+
+}
+
+.all__reserved p {
+    font-family: Ubuntu, sans-serif;
+    font-size: 14px;
+    color: #A8A8A8;
+    letter-spacing: .1em;
+    font-weight: 700;
+}
+
+.all__reserved p:last-child {
+    padding-top: 20PX;
+}
+
+@media(min-width: 768px) {
+    .container {
+        padding: 0 32px;
+    }
+
+    .footer__nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer__menu {
+        flex-basis: 66.6%;
+        max-width: 66.6%;
+    }
+
+    .all__reserved {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media(min-width: 992px) {
+    .footer__menu {
+        display: flex;
+        justify-content: end;
+    }
+
+    .footer__menu nav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .footer__menu nav a {
+        margin: 0 17px;
+    }
+
+    .container {
+        padding: 0 42px;
+    }
+}

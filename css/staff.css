@@ -1,0 +1,114 @@
+.staff {
+    background-image: url(../img/dark-background.webp);
+    color: var(--snow-color);
+    padding: 50px 0 0 0;
+}
+.staff__brief {
+    display: flex;
+    flex-direction: column;
+}
+.staff__brief-subtitle {
+    display: flex;
+    justify-content: center;
+    color: var(--first-accent-color);
+    font-weight: 500;
+}
+.staff__brief-title {
+    display: flex;
+    justify-content: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 20px 0 0 0; 
+}
+.staff__brief-description {
+    margin: 15px 0 0 0; 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: var(--light-text-color);
+    font-size: 20px;
+    line-height: 30px;
+}
+.staff__position {
+    margin: 50px 15px 0 15px;
+}
+.staff__position-ceo {
+}
+.staff__position-image {
+    margin: 50px 0 0 0;
+    padding: 0 15px;
+}
+.staff__position-name {
+    margin: 20px 0 0 0;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.staff__position-line {
+    height: 3px;
+    text-align: center;
+    background-color: var(--first-accent-color);
+    display: flex;
+    width: 7%;
+    margin: auto;
+}
+.staff__position-appointment {
+    padding-top: 15px;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--light-text-color);
+
+}
+.staff__position-socials {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.facebook {
+}
+.facebook-icon {
+    margin: 0 5px 10px 5px;
+    width: 50px;
+}
+.instagram {
+}
+.instagram-icon {
+    margin: 0 5px 10px 5px;
+    width: 50px;
+}
+.youtube {
+}
+.youtube-icon {
+    margin: 0 5px 10px 5px;
+    width: 50px;
+}
+.staff__position-cto {
+}
+.staff__position-consultant {
+}
+@media(min-width: 992px) {
+    .staff__position {
+        display: flex;
+        /* justify-content: center; */
+        margin-top: 50px;
+        /* margin-left: auto;
+        margin-right: auto; */
+    }
+    .position {
+        width: 33%;
+        /* height: 300px; */
+    }       
+    .staff__position-image {
+        margin: auto;
+        height: 400px;
+        max-width: 300px;
+        padding: 0;
+    }     
+    .staff__position-ceo {
+        margin: auto;
+    }
+}
