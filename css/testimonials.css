@@ -1,6 +1,7 @@
 .testimonials-general {
     display: flex;
-    flex: column;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .testimonial-1 {
