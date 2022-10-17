@@ -15,14 +15,12 @@
   display: block;  
   padding-left: 32px; 
   padding-right: 32px; 
-  padding-bottom: 105px; 
-  padding-top: 100px; 
+  padding-bottom: 105px;  
   font-weight: 400; 
   height: 897.85px;
 } 
 
 .title__container { 
- margin-top: 30px; 
  padding-left: 15px; 
  padding-right: 15px; 
  height: 209.4px;
@@ -86,30 +84,39 @@
 }
 
 .promo__price {
-   display: block;
+   display: flex;
    font-size: 132px;
    line-height: 132px;
    width: 178.387px;
 }
 
-.promo__per-day-dollar {
+.promo__dollar {
    font-size: 45px;
-   line-height: 45px;
-   font-weight: 600;
-   display: inline;
-   color: var(--dark-text-color)
-
 }
 
-.promo__per-day-price {
+.promo__value {
    font-size: 90px;
-   line-height: 90px;
-   letter-spacing: -1.8;
-   margin-top: 30px;
-   margin-block-start: 30px;
-   display: inline;
-   color: var(--dark-text-color);
 }
+
+.promo__dollar390 {
+   font-size: 45px;
+   color: var(--snow-color);
+}
+
+.promo__value390 {
+   font-size: 90px;
+   color: var(--snow-color);
+}
+
+.promo__text390 {
+   color: var(--snow-color);
+   font-size: 14px;
+   margin-top: 5px;
+   letter-spacing: 1.4px;
+   line-height: 22.4px;
+   font-weight: 700;
+}
+
 
 .promo__text {
    color: var(--light-text-color);
@@ -164,8 +171,6 @@
 }
 
 .mark { 
-  color: rgb(90, 190, 82); 
-  fill: rgb(90, 190, 82); 
   list-style-position: outside; 
   max-width: 20px; 
   flex-basis: 20px; 
