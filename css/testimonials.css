@@ -76,7 +76,7 @@
 }
 
 h4 {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 14px;
     font-weight: bold;
     color: #f6c43d;
@@ -89,4 +89,6 @@ h5 {
     font-weight: bold;
     line-height: 1px;
     color: #222;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
 }
