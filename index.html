@@ -58,7 +58,7 @@
             <div class="title__buton">
                 <a href="#lern-more">LEARN MORE</a>
                 <span class="pricin__roll">
-                    <a href="#pricing">PRACING    <img src="img/right-arrow.svg" alt="right-arrow"></a>
+                    <a href="#pricing">PRACING <img src="img/right-arrow.svg" alt="right-arrow"></a>
                 </span>
             </div>
         </div>
@@ -230,12 +230,20 @@
         <!--Inna Yaremchuk-->
         <section class="executive-cars">
             <div class="executive-cars__container">
-                <p class="executive-cars__subtitle"><span>—</span>RENT A CAR</p>
-                <h2 class="execiutive-cars__title">Executive Cars at Favorable Rates</h2>
-                <p class="executive-cars__text">Rent a comfortable and good-looking car for any period. Corporate
-                    discounts are available.</p>
-                <a href="contacts" class="executive-cars__contacts-button">CONTACTS</a>
-                <a href="cars-of-the-month" class="executive-cars__offers-button">BEST OFFERS</a>
+                <div class="container-inner">
+                    <p class="executive-cars__subtitle"><span>—</span>RENT A CAR</p>
+                    <h2 class="execiutive-cars__title">Executive Cars at Favorable Rates</h2>
+                    <p class="executive-cars__text">Rent a comfortable and good-looking car for any period. Corporate
+                        discounts are available.</p>
+                    <div class="executive__button">
+                        <div class="executive__btn">
+                            <a href="contacts" class="executive-cars__contacts-button">CONTACTS</a>
+                        </div>
+                        <div class="executive__btn-offer">
+                            <a href="#car-of-the-month" class="executive-cars__contacts-button">BEST OFFERS</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <!--Inna Yaremchuk end-->
@@ -274,12 +282,12 @@
                     the documents, and pick up your car!</p>
             </div>
             <div class="gallery__upper">
-                <img width="300" src="img/choosing.jpeg" alt="Choosing a car" class="pickup__gallery-image">
-                <img width="300" src="img/carkey.jpeg" alt="Getting car key" class="pickup__gallery-image">
+                <img width="150" src="img/choosing.jpeg" alt="Choosing a car" class="pickup__gallery-image">
+                <img width="150" src="img/carkey.jpeg" alt="Getting car key" class="pickup__gallery-image">
             </div>
             <div class="gallery__bottom">
-                <img width="300" src="img/car.jpeg" alt="A car" class="pickup__gallery-image">
-                <img width="300" src="img/purchase.jpeg" alt="Purchase" class="pickup__gallery-image">
+                <img width="150" src="img/car.jpeg" alt="A car" class="pickup__gallery-image">
+                <img width="150" src="img/purchase.jpeg" alt="Purchase" class="pickup__gallery-image">
             </div>
         </section>
         <!--Lora yaremchuk end-->
@@ -401,14 +409,17 @@
         <!--Yulia Yaremchuk end-->
         <!-- Vanya Yarovyi start-->
         <section class="staff">
-            <span class="staff__subtitle">- STAFF</span>
-            <h2 class="staff__title">Our Team</h2>
-            <p class="staff__description">These people do everything to ensure that you enjoy driving in a
-                comfortable, safe, and good-looking car.</p>
+            <div class="staff__brief">
+                <p class="staff__brief-subtitle">— STAFF</p>
+                <h3 class="staff__brief-title">Our Team</h3>
+                <p class="staff__brief-description">These people do everything to ensure that you enjoy driving in a
+                    comfortable, safe, and good-looking car.</p>
+            </div>
             <div class="staff__position">
-                <aside class="staff__position-ceo">
-                    <img width="400" src="img/ceo-position.webp" class="staff__position-image"
+                <aside class="staff__position-ceo position">
+                    <div class="staff__position-photo"><img src="img/ceo-position.webp" class="staff__position-image"
                         alt="Chief Executive Officer's photo">
+                    </div>
                     <p class="staff__position-name">Douglas Shimmer</p>
                     <div class="staff__position-line"></div>
                     <p class="staff__position-appointment">CEO</p>
@@ -421,9 +432,10 @@
                                 class="youtube-icon"></a>
                     </div>
                 </aside>
-                <aside class="staff__position-cto">
-                    <img width="400" src="img/cto-position.webp" class="staff__position-image"
+                <aside class="staff__position-cto position">
+                    <div class="staff__position-photo"><img src="img/cto-position.webp" class="staff__position-image"
                         alt="Chief technical officer's photo">
+                    </div>
                     <p class="staff__position-name">Don Mastando</p>
                     <div class="staff__position-line"></div>
                     <p class="staff__position-appointment">CTO</p>
@@ -436,9 +448,10 @@
                                 class="youtube-icon"></a>
                     </div>
                 </aside>
-                <aside class="staff__position-consultant">
-                    <img width="400" src="img/prime-consultant-position.webp" class="staff__position-image"
+                <aside class="staff__position-consultant position">
+                    <div class="staff__position-photo"><img src="img/prime-consultant-position.webp" class="staff__position-image"
                         alt="Prime Consultant's photo">
+                    </div>
                     <p class="staff__position-name">Andrew Wollace</p>
                     <div class="staff__position-line"></div>
                     <p class="staff__position-appointment">Prime Consultant</p>
@@ -458,49 +471,51 @@
         <!-- Kateryna Petrenko start-->
 
         <section class="testimonials">
-        <h2>— FEEDBACK</h2>
-        <h4>Testimonials</h4>
-        <p class="testimonials-descr">Every day, dozens of people go to work or travel by cars rented with FASTCAR.
-        </p>
+            <div class="testimonials-general">
+                <h4>— FEEDBACK</h4>
+                <h5>Testimonials</h5>
+                <p class="testimonials-descr">Every day, dozens of people go to work or travel by cars rented with FASTCAR.
+                </p>
+            </div>
 
-        <div class="testimonial-1">
-            <img src="img/testimonial1.webp" alt="testimonial-1">
-            <p class="testimonial-name">Jane McCallan</p>
-            <p class="testimonial-position">Marketing Director at Pepsi Co.</p>
-            <p class="testimonial-description">
-                I am completely satisfied with the services of this company. I often
-                rent cars with FASTCAR for business meetings, driving to work, etc. I
-                am pleased with the excellent technical condition of the cars,
-                favourable rental conditions. And the staff is always friendly.
-            </p>
-            <p class="testimonial-date">December 15, 2019</p>
-        </div>
+            <div class="testimonial-1">
+                <img src="img/testimonial1.webp" alt="testimonial-1">
+                <p class="testimonial-name">Jane McCallan</p>
+                <p class="testimonial-position">Marketing Director at Pepsi Co.</p>
+                <p class="testimonial-description">
+                    I am completely satisfied with the services of this company. I often
+                    rent cars with FASTCAR for business meetings, driving to work, etc. I
+                    am pleased with the excellent technical condition of the cars,
+                    favourable rental conditions. And the staff is always friendly.
+                </p>
+                <p class="testimonial-date">December 15, 2019</p>
+            </div>
 
-        <div class="testimonial-2">
-            <img src="img/testimonial2.webp" alt="testimonial-2">
-            <p class="testimonial-name">Daniel Gordons</p>
-            <p class="testimonial-position">CEO at MyVent</p>
-            <p class="testimonial-description">
-                When I was driving to one of the most important meetings in my life,
-                my car broke down... Only a few hours remained, and a new car was
-                urgently needed. Thanks to the FASTCAR specialists, I managed to
-                quickly rent a luxury car. They immediately solved my problem.
-            </p>
-            <p class="testimonial-date">January 08, 2020</p>
-        </div>
+            <div class="testimonial-2">
+                <img src="img/testimonial2.webp" alt="testimonial-2">
+                <p class="testimonial-name">Daniel Gordons</p>
+                <p class="testimonial-position">CEO at MyVent</p>
+                <p class="testimonial-description">
+                    When I was driving to one of the most important meetings in my life,
+                    my car broke down... Only a few hours remained, and a new car was
+                    urgently needed. Thanks to the FASTCAR specialists, I managed to
+                    quickly rent a luxury car. They immediately solved my problem.
+                </p>
+                <p class="testimonial-date">January 08, 2020</p>
+            </div>
 
-        <div class="testimonial-3">
-            <img src="img/testimonial3.webp" alt="testimonial-3">
-            <p class="testimonial-name">Elizabeth Smith</p>
-            <p class="testimonial-position">Director of Media at Legal Company</p>
-            <p class="testimonial-description">
-                I love sports cars and fast driving but I can't buy such a car, it's too
-                expensive. Therefore, sometimes I rent sports cars to enjoy the speed.
-                I choose this company because of the attractive pricing policy and a
-                wide selection of luxury vehicles.
-            </p>
-            <p class="testimonial-date">April 04, 2020</p>
-        </div>
+            <div class="testimonial-3">
+                <img src="img/testimonial3.webp" alt="testimonial-3">
+                <p class="testimonial-name">Elizabeth Smith</p>
+                <p class="testimonial-position">Director of Media at Legal Company</p>
+                <p class="testimonial-description">
+                    I love sports cars and fast driving but I can't buy such a car, it's too
+                    expensive. Therefore, sometimes I rent sports cars to enjoy the speed.
+                    I choose this company because of the attractive pricing policy and a
+                    wide selection of luxury vehicles.
+                </p>
+                <p class="testimonial-date">April 04, 2020</p>
+            </div>
 
         </section>
         <!-- Kateryna Petrenko end-->
@@ -551,7 +566,79 @@
             </div>
         </section>
         <!-- Roman Romaniv -->
+        <!--Lora Yaremchuk start2-->
+        <section class="contacts__general__info">
+            <div class="contacts__information">
+                <p class="headquater">
+                    <span>—</span>
+                    FASTCAR HEADQUARTER
+                </p>
+                <h2 class="contacts__header">
+                    Contacts</h2>
+                <div class="contacts__adress">
+                    <h3>130 W 19th St, New York,
+                        NY 10011, USA</h3>
+                </div>
+                <div class="comunication__data">
+                    <p class="comunication__number">
+                        <a class="tel" href="+1 (234) 567 89 00">+1 (234) 567 89 00</a>
+                    </p>
+                    <p class="comunication__email">
+                        <a class="e-mail" href="fastcar@email.com">fastcar@email.com</a>
+                    </p>
+                </div>
+            </div>
+            <div class="social__icons">
+
+                <a rel="facebook" target="_blank" href="https://facebook.com/"><img class="facebook__icon"
+                        src="img/facebook-icon.svg" alt="facebook-icon"></a>
+                <a rel="instagram" target="_blank" href="https://instagram.com/"><img class="instagram__icon"
+                        src="img/instagram-icon.svg" alt="instagram-icon"></a>
+                <a rel="youtube" target="_blank" href="https://youtube.com/"><img class="youtube__icon"
+                        src="img/youtube-icon.svg" alt="youtube-icon"> </a>
+
+            </div>
+            <div class="contacts__map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.95914711895!2d-73.99838228454217!3d40.74092444378225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259bc954b73a7%3A0xef2172fc12351c90!2zMTMwIFcgMTl0aCBTdCwgTmV3IFlvcmssIE5ZIDEwMDExLCDQodCo0JA!5e0!3m2!1sru!2sua!4v1665937729701!5m2!1sru!2sua"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        <!--Lora Yaremchuk end2-->
     </main>
+
+    <!-- Roman Romaniv -->
+    <footer>
+        <section class="footer">
+            <div class="container">
+                <div class="footer__nav">
+
+                    <div class="footer__logo">
+                        <img src="img/footer__logo.svg" alt="footer car logo">
+                    </div>
+                    <div class="footer__menu">
+                        <nav>
+                            <a href="#">About us</a>
+                            <a href="#">Cars of the month</a>
+                            <a href="#">Pricing</a>
+                            <a href="#">Testmonials</a>
+                            <a href="#">Contacts us</a>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="all__reserved">
+                    <p>© Created by</p>
+                    <p>All rights Reserved</p>
+                </div>
+
+            </div>
+
+        </section>
+    </footer>
+    <!-- Roman Romaniv -->
+
 </body>
 
 </html>

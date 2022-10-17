@@ -1,0 +1,19 @@
+.testimonials-general {
+    display: flex;
+    flex: column;
+}
+
+.testimonial-1 {
+    display: flex;
+    flex: column;
+}
+
+.testimonial-2 {
+    display: flex;
+    flex: column;
+}
+
+.testimonial-3 {
+    display: flex;
+    flex: column;
+}
