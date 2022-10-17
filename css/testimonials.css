@@ -74,3 +74,19 @@
 .all-testimonials {
     margin-bottom: 100px;
 }
+
+h4 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #f6c43d;
+    line-height: 1.6px;
+}
+
+h5 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size:  65px;
+    font-weight: bold;
+    line-height: 1px;
+    color: #222;
+}
