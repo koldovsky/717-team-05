@@ -24,28 +24,32 @@
 <!--Levko Tkach start-->
 
 <body>
-    <header class="header container">
-        <nav class="header__nav">
-            <div class="header__logo__container">
-                <img src="img/car-logo.svg" alt="car-logo">
-            </div>
-            <input class="imput__checkbox" type="checkbox">
-            <ul class="header__menu">
-                <li class="header__menu__item"><a href="#About_us">About us</a></li>
-                <li class="header__menu__item"><a href="#Cars_of_the_mont">Cars of the mont</a></li>
-                <li class="header__menu__item"><a href="#Pricing">Pricing</a></li>
-                <li class="header__menu__item"><a href="#Testimonials">Testimonials</a></li>
-                <li class="header__menu__item"><a href="#Contact_us">Contact us</a></li>
-            </ul>
-            <div class="container__social__icon">
-                <a rel="facebook" target="_blank" href="https://facebook.com/"><img class="social__icon"
-                        src="img/facebook-icon.svg" alt="facebook-icon"></a>
-                <a rel="instagram" target="_blank" href="https://instagram.com/"><img class="social__icon"
-                        src="img/instagram-icon.svg" alt="instagram-icon"></a>
-                <a rel="youtube" target="_blank" href="https://youtube.com/"><img class="social__icon"
-                        src="img/youtube-icon.svg" alt="youtube-icon"> </a>
-            </div>
-        </nav>
+    <header class="header">
+        <div class="container">
+            <nav class="header__nav">
+                <div class="header__logo__container">
+                    <img src="img/car-logo.svg" alt="car-logo">
+                </div>
+             
+                <div class="header__nav__container">
+                    <input class="imput__checkbox" type="checkbox">
+                    <ul class="header__nav__list">
+                        <li class="header__nav__item"><a href="#About_us">About us</a></li>
+                        <li class="header__nav__item"><a href="#Cars_of_the_mont">Cars of the mont</a></li>
+                        <li class="header__nav__item"><a href="#Pricing">Pricing</a></li>
+                        <li class="header__nav__item"><a href="#Testimonials">Testimonials</a></li>
+                        <li class="header__nav__item"><a href="#Contact_us">Contact us</a></li>
+                    </ul>
+                    <div class="container__social__icon">
+                        <a rel="facebook" target="_blank" href="https://facebook.com/"><img class="social__icon"
+                                src="img/facebook-icon.svg" alt="facebook-icon"></a>
+                        <a rel="instagram" target="_blank" href="https://instagram.com/"><img class="social__icon"
+                                src="img/instagram-icon.svg" alt="instagram-icon"></a>
+                        <a rel="youtube" target="_blank" href="https://youtube.com/"><img class="social__icon"
+                                src="img/youtube-icon.svg" alt="youtube-icon"> </a>
+                    </div>
+                </div>
+            </nav>
 
         <div class="title__wrapper">
             <div class="title__before">
@@ -58,7 +62,7 @@
             <div class="title__buton">
                 <a href="#lern-more">LEARN MORE</a>
                 <span class="pricin__roll">
-                    <a href="#pricing">PRACING <img src="img/right-arrow.svg" alt="right-arrow"></a>
+                    <a href="#pricing">PRACING    <img src="img/right-arrow.svg" alt="right-arrow"></a>
                 </span>
             </div>
         </div>
@@ -93,17 +97,20 @@
                 </div>
             </div>
         </div>
-        <div class="about container">
-            <h2><span>— </span>MEET FASTCAR</h2>
-            <p class="about__title">About Us</p>
-            <p class="about__idea">We do everything for you to drive with maximum comfort!</p>
-            <p class="about__text">Our company has been operating on the US car rental market for over 10 years.
-                You can rent a car for any purpose, from a business trip to conquering roads with difficult
-                surfaces.<br><br>
-                We have several pick-up locations in New York so that you can take and leave the rented car in
-                any convenient place. FASTCAR offers the most favorable conditions for car rental.<br><br>
-            </p>
-            <a href="#CONTACT_US">CONTACT US</a>
+        </div>
+        <div class="container">
+            <div class="about">
+                <h2><span>— </span>MEET FASTCAR</h2>
+                <p class="about__title">About Us</p>
+                <p class="about__idea">We do everything for you to drive with maximum comfort!</p>
+                <p class="about__text">Our company has been operating on the US car rental market for over 10 years.
+                    You can rent a car for any purpose, from a business trip to conquering roads with difficult
+                    surfaces.<br><br>
+                    We have several pick-up locations in New York so that you can take and leave the rented car in
+                    any convenient place. FASTCAR offers the most favorable conditions for car rental.<br><br>
+                </p>
+                <a href="#CONTACT_US">CONTACT US</a>
+            </div>
         </div>
         <!--Levko Tkach end-->
 
@@ -294,7 +301,7 @@
 
         <!--Yulia Yaremchuk-->
         <section class="pricing"> 
-            <div calss="pricing__container"> 
+            <div class="pricing__container"> 
                 <div class="title__container"> 
                     <p class="pricing__subtitle"> 
                         <span class="pricing__divider">—</span>RATES 
@@ -309,8 +316,8 @@
                             <span class="suvs-150per-day-divider">—</span>SUVs 
                         </p>
                         <div class="promo__price">
-                            <p class="promo__per-day-dollar">$</p>
-                            <p class="promo__per-day-price">150</p> 
+                            <span class="promo__dollar">$</span>
+                            <span class="promo__value">150</p> 
                         </div>
                         <p class="promo__text">per day</p> 
                         <ul class="promo__suvs-150per-examples"> 
@@ -342,10 +349,10 @@
                             <span class="luxury-390per-day-divider">—</span>LUXURY 
                         </p> 
                         <div class="promo__price">
-                            <p class="promo__per-day-dollar">$</p>
-                            <p class="promo__per-day-price">390</p> 
+                            <span class="promo__dollar390">$</span>
+                            <span class="promo__value390">390</p>  
                         </div> 
-                        <p class="promo__luxury-390per-day-text">per day</p> 
+                        <p class="promo__text390">per day</p> 
                         <ul class="promo__luxury-390per-day-examples"> 
                             <li> 
                                 <div class="mark"> 
@@ -375,8 +382,8 @@
                             <span class="luxury-500per-day-divider">—</span>LUXURY 
                         </p> 
                         <div class="promo__price">
-                            <p class="promo__per-day-dollar">$</p>
-                            <p class="promo__per-day-price">500</p> 
+                            <span class="promo__dollar">$</span>
+                            <span class="promo__value">500</p>  
                         </div> 
                         <p class="promo__text">per day</p> 
                         <ul class="promo__luxury-500per-day-examples"> 
