@@ -30,6 +30,7 @@ img {
     display: block;
 }
 .container{
+    border: 1px solid #898989;
     min-width: 340px;
     max-width: 1200px;
     margin: auto;

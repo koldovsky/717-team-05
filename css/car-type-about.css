@@ -1,13 +1,15 @@
 .car__wrapper {
     margin-top: 25px;
-
+    margin-bottom: 25px;
+    
+    
 }
 
 .car__type {
     border: 1px solid var(--snow-color);
-    margin: 0px 10px 0 10px;
+    margin: 30px 10px ;
     background-color: var(--snow-color);
-    padding: 30px 0;
+    
 }
 
 .car__type__inner {
@@ -52,11 +54,14 @@
 }
 
 
+    
 .about {
+    
     margin: 50px 24px 60px 24px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    
 }
 
 .about>h2 {

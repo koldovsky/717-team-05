@@ -10,13 +10,55 @@ body {
 }
 
 .header{
-    margin-left: 35px;
+    margin-top: 35px;
+    
 }
 
 .header__logo__container {
     max-width: 97px;
-    margin-top: 25px;
 }
+
+
+.navbar{
+    padding-top: 35px;
+}
+.navbar-toggler {
+    border: 0px;
+}
+.navbar__container{
+    min-width: 340px;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    padding: 0 35px;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.offcanvas{
+    top:0;
+    align-items: center;
+    padding-top:70px;
+    width: 100%;
+    min-width: 340px;
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.offcanvas-header{
+    padding:0;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.offcanvas-body{
+    text-align: center;
+}
+
+
+
+
 .header__nav__container{
     display: flex;
     justify-content: center;
