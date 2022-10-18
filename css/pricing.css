@@ -69,7 +69,7 @@
   flex-direction: column; 
   justify-content: center; 
   text-align: left;  
-  width: 344.788px; 
+  width: 299.462px; 
   height: 583.912px;
   padding-bottom: 40px;
   padding-top: 40px;
@@ -80,14 +80,27 @@
 .promo__subtitle {
    font-size: 14px;
    display: block;
+   font-weight: 700;
+   letter-spacing: 1.4px;
+   line-height: 22.4px;
    color: var(--first-accent-color);
+}
+
+.promo__subtitle390 {
+   font-size: 14px;
+   display: block;
+   letter-spacing: 1.4px;
+   font-weight: 700;
+   line-height: 22.4px;
+   color: var(--snow-color);
 }
 
 .promo__price {
    display: flex;
-   font-size: 132px;
-   line-height: 132px;
+   font-size: 90px;
+   line-height: 90px;
    width: 178.387px;
+   margin-top: 30px;
 }
 
 .promo__dollar {
@@ -115,6 +128,23 @@
    letter-spacing: 1.4px;
    line-height: 22.4px;
    font-weight: 700;
+   height: 24px;
+}
+
+.promo__examples {
+   list-style-image: url(../img/green-check-mark.svg);
+   font-weight: 400;
+   font-size: 17px;
+   width: 199.462px;
+   margin-top: 30px;
+}
+
+.promo__examples390 {
+   list-style-image: url(../img/green-check-mark.svg);
+   font-weight: 400;
+   font-size: 17px;
+   width: 199.462px;
+   margin-top: 30px;
 }
 
 
@@ -136,16 +166,26 @@
    margin-bottom: 15px;
 }
 
+.mark-text390 {
+   display: flex;
+   font-size: 17px;
+   font-weight: 400;
+   line-height: 27.54px;
+   margin-bottom: 15px;
+   color: var(--snow-color);
+}
+
 .promo__390per-day { 
   display: flex; 
   background-image: url(../img/pricing-promo-background.png); 
-  position: absolute;
-  background-size: auto; 
+  background-position: 50% 50%;
+  box-shadow: inset 0 0 0 1000px #000000a6;
+  background-size: cover; 
   flex-direction: column; 
   justify-content: center; 
   text-align: left; 
-  width: 368.788;
-  height: 583.912;
+  width: 323.462px;
+  height: 611.45px;
   margin-left: -12px;
   margin-right: -12px;
   padding-bottom: 40px;
@@ -162,7 +202,7 @@
   text-align: left; 
   padding-bottom: 25px; 
   padding-top: 25px; 
-  width: 344.788px; 
+  width: 299.462px; 
   height: 583.912px;
   padding-bottom: 40px;
   padding-top: 40px;
@@ -170,28 +210,28 @@
   padding-right: 40px;
 }
 
-.mark { 
-  list-style-position: outside; 
-  max-width: 20px; 
-  flex-basis: 20px; 
-  font-size: 17px; 
-  height: 24px; 
-  text-align: left; 
-  vertical-align: middle; 
-} 
+.promo-btn {
+   margin-top: 40px;
+   display: flex;
+   justify-content: flex-start;
+   line-height: 27.54px;
+   height: 48.5px; 
+   font-weight: 400; 
+}
 
 .promo__rent-link-button { 
   cursor: pointer; 
-  color: var(--snow-color); 
   background-color: var(--first-accent-color); 
+  color: var(--snow-color); 
   border-radius: 25px 25px; 
   font-weight: 700; 
-  font-size: 16.5; 
-  height: 48.5px; 
-  line-height: 16.5px; 
+  font-size: 16px; 
+  line-height: 27.54px; 
   text-align: center; 
-  letter-spacing: 0.165px; 
+  letter-spacing: 0.195px; 
   width: 144.125px; 
+  align-items: center;
+  
 } 
 
 .promo__rent-link-button:hover { 

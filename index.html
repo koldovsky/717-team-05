@@ -10,6 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
+   
 </head>
 <!-- 1Levko Tkach-->
 <!-- 2Valentyna-->
@@ -296,8 +297,8 @@
         <!--Pavlo Yahla end-->
 
         <!--Lora Yaremchuk start-->
-        <section class="pickup">
-            <div class="pickup__container">
+        <section class="pickup section">
+            <div class="pickup container">
                 <p class="pickup__subtitle">
                     <span>—</span>
                     OFFICES
@@ -308,15 +309,13 @@
                     fill out
                     the documents, and pick up your car!</p>
             </div>
-            <div class="gallery__upper">
-                <img width="150" src="img/choosing.jpeg" alt="Choosing a car" class="pickup__gallery-image">
-                <img width="150" src="img/carkey.jpeg" alt="Getting car key" class="pickup__gallery-image">
-            </div>
-            <div class="gallery__bottom">
-                <img width="150" src="img/car.jpeg" alt="A car" class="pickup__gallery-image">
-                <img width="150" src="img/purchase.jpeg" alt="Purchase" class="pickup__gallery-image">
-            </div>
-        </section>
+            <ul class="pickup__list">
+                <li class="pickup__list__item"> <img src="./img/choosing.jpeg" alt="choosing a car">  </li>
+                <li class="pickup__list__item"> <img src="./img/carkey.jpeg" alt="getting a car key"> </li>
+                <li class="pickup__list__item"> <img src="./img/car.jpeg" alt="car photo">  </li>
+                <li class="pickup__list__item"> <img src="./img/purchase.jpeg" alt="buying a car">  </li>
+               </ul>
+            </section>
         <!--Lora yaremchuk end-->
 
         <!--Yulia Yaremchuk-->
@@ -336,27 +335,18 @@
                             <span class="suvs-150per-day-divider">—</span>SUVs
                         </p>
                         <div class="promo__price">
-                            <p class="promo__per-day-dollar">$</p>
-                            <p class="promo__per-day-price">150</p>
+                            <p class="promo__dollar">$</p>
+                            <p class="promo__value">150</p>
                         </div>
                         <p class="promo__text">per day</p>
-                        <ul class="promo__suvs-150per-examples">
+                        <ul class="promo__examples">
                             <li>
-                                <div class="mark">
-                                    <img width="10" src="img/green-check-mark.svg" alt="green check mark">
-                                </div>
                                 <p class="mark-text">Ford Everest</p>
                             </li>
                             <li>
-                                <div class="mark">
-                                    <img width="10" src="img/green-check-mark.svg" alt="green check mark">
-                                </div>
                                 <p class="mark-text">Nissan X-Trail</p>
                             </li>
                             <li>
-                                <div class="mark">
-                                    <img width="10" src="img/green-check-mark.svg" alt="green check mark">
-                                </div>
                                 <p class="mark-text">Suzuki Escudo or similar</p>
                             </li>
                         </ul>
@@ -365,32 +355,23 @@
                         </div>
                     </div>
                     <div class="promo__390per-day">
-                        <p class="promo__subtitle">
+                        <p class="promo__subtitle390">
                             <span class="luxury-390per-day-divider">—</span>LUXURY
                         </p>
                         <div class="promo__price">
-                            <p class="promo__per-day-dollar">$</p>
-                            <p class="promo__per-day-price">390</p>
+                            <span class="promo__dollar390">$</span>
+                            <span class="promo__value390">390</span>
                         </div>
-                        <p class="promo__luxury-390per-day-text">per day</p>
-                        <ul class="promo__luxury-390per-day-examples">
+                        <p class="promo__text390">per day</p>
+                        <ul class="promo__examples390">
                             <li>
-                                <div class="mark">
-                                    <img width="10" src="img/green-check-mark.svg" alt="green check mark">
-                                </div>
-                                <p class="mark-text">Lexus SX350</p>
+                                <p class="mark-text390">Lexus SX350</p>
                             </li>
                             <li>
-                                <div class="mark">
-                                    <img width="10" src="img/green-check-mark.svg" alt="green check mark">
-                                </div>
-                                <p class="mark-text">Jaguar XF</p>
+                                <p class="mark-text390">Jaguar XF</p>
                             </li>
                             <li>
-                                <div class="mark">
-                                    <img width="10" src="img/green-check-mark.svg" alt="green check mark">
-                                </div>
-                                <p class="mark-text">Audi A6 or similar</p>
+                                <p class="mark-text390">Audi A6 or similar</p>
                             </li>
                         </ul>
                         <div class="promo-btn">
@@ -402,27 +383,18 @@
                             <span class="luxury-500per-day-divider">—</span>LUXURY
                         </p>
                         <div class="promo__price">
-                            <p class="promo__per-day-dollar">$</p>
-                            <p class="promo__per-day-price">500</p>
+                            <p class="promo__dollar">$</p>
+                            <p class="promo__value">500</p>
                         </div>
                         <p class="promo__text">per day</p>
-                        <ul class="promo__luxury-500per-day-examples">
+                        <ul class="promo__examples">
                             <li>
-                                <div class="mark">
-                                    <img width="10" src="img/green-check-mark.svg" alt="green check mark">
-                                </div>
                                 <p class="mark-text">McLaren Senna</p>
                             </li>
                             <li>
-                                <div class="mark">
-                                    <img width="10" src="img/green-check-mark.svg" alt="green check mark">
-                                </div>
                                 <p class="mark-text">Porsche 911 GT2 RS</p>
                             </li>
                             <li>
-                                <div class="mark">
-                                    <img width="10" src="img/green-check-mark.svg" alt="green check mark">
-                                </div>
                                 <p class="mark-text">Ford GT or similar</p>
                             </li>
                         </ul>
@@ -506,17 +478,18 @@
                 </p>
             </div>
 
-            <section class="all-testimonials" <div class="testimonial-1">
-                <img src="img/testimonial 1.jpeg" alt="testimonial-1" class="testimonial-image">
-                <p class="testimonial-name">Jane McCallan</p>
-                <p class="testimonial-position">Marketing Director at Pepsi Co.</p>
-                <p class="testimonial-description">
-                    I am completely satisfied with the services of this company. I often
-                    rent cars with FASTCAR for business meetings, driving to work, etc. I
-                    am pleased with the excellent technical condition of the cars,
-                    favourable rental conditions. And the staff is always friendly.
-                </p>
-                <p class="testimonial-date">December 15, 2019</p>
+            <section class="all-testimonials">
+                <div class="testimonial-1">
+                    <img src="img/testimonial 1.jpeg" alt="testimonial-1" class="testimonial-image">
+                    <p class="testimonial-name">Jane McCallan</p>
+                    <p class="testimonial-position">Marketing Director at Pepsi Co.</p>
+                    <p class="testimonial-description">
+                        I am completely satisfied with the services of this company. I often
+                        rent cars with FASTCAR for business meetings, driving to work, etc. I
+                        am pleased with the excellent technical condition of the cars,
+                        favourable rental conditions. And the staff is always friendly.
+                    </p>
+                    <p class="testimonial-date">December 15, 2019</p>
                 </div>
 
                 <div class="testimonial-2">

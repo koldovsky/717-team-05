@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Ubuntu:wght@400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;1,600&family=Quicksand:wght@400;700&family=Ubuntu:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
 
 *,
 *::before,
@@ -39,19 +41,7 @@ img {
 body{
     background-color: var(--background-color);
 }
-
-h4 {
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-    color: #f6c43d;
-    line-height: 1.6px;
-}
-
-h5 {
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size:  65px;
-    font-weight: bold;
-    line-height: 1px;
-    color: #222;
+.section{
+    padding-top: 110px;
+    padding-bottom: 120px;
 }
