@@ -80,7 +80,19 @@
 .promo__subtitle {
    font-size: 14px;
    display: block;
+   font-weight: 700;
+   letter-spacing: 1.4px;
+   line-height: 22.4px;
    color: var(--first-accent-color);
+}
+
+.promo__subtitle390 {
+   font-size: 14px;
+   display: block;
+   letter-spacing: 1.4px;
+   font-weight: 700;
+   line-height: 22.4px;
+   color: var(--snow-color);
 }
 
 .promo__price {
@@ -115,6 +127,23 @@
    letter-spacing: 1.4px;
    line-height: 22.4px;
    font-weight: 700;
+   height: 24px;
+}
+
+.promo__examples {
+   list-style-image: url(../img/green-check-mark.svg);
+   font-weight: 400;
+   font-size: 17px;
+   width: 199.462px;
+   margin-top: 30px;
+}
+
+.promo__examples390 {
+   list-style-image: url(../img/green-check-mark.svg);
+   font-weight: 400;
+   font-size: 17px;
+   width: 199.462px;
+   margin-top: 30px;
 }
 
 
@@ -134,6 +163,15 @@
    font-weight: 400;
    line-height: 27.54px;
    margin-bottom: 15px;
+}
+
+.mark-text390 {
+   display: flex;
+   font-size: 17px;
+   font-weight: 400;
+   line-height: 27.54px;
+   margin-bottom: 15px;
+   color: var(--snow-color);
 }
 
 .promo__390per-day { 
@@ -171,16 +209,6 @@
   padding-left: 40px;
   padding-right: 40px;
 }
-
-.mark { 
-  list-style-position: outside; 
-  max-width: 20px; 
-  flex-basis: 20px; 
-  font-size: 17px; 
-  height: 24px; 
-  text-align: left; 
-  vertical-align: middle; 
-} 
 
 .promo-btn {
    margin-top: 40px;
