@@ -40,6 +40,7 @@
     font-size: 18px;
     color: #222;
     line-height: 1.65px;
+    min-height: 100px;
 }
 
 .testimonial-image {
