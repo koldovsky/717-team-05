@@ -1,31 +1,80 @@
+.contacts__general__info{
+    width: 470px; 
+    min-height: 797px;
+}
+    
+.contacts__wrapper{
+    border: 1px solid #f6c43d;
+    margin: 30px 0px 0px;
+    padding: 0px 15px;
+}
+
+
 .headquater{
+    padding-top: 120px;
    color: #f6c43d;
+   font-weight: 500;
+    letter-spacing: 0.12em;
+   
+    font-size: 14px;
+    margin-bottom: 28px;
+    
 }
 .contacts__header{
     color: #222;
+    font-size: 65px;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-family:"Barlow Condensed", sans-serif ;
+}
+.contacts__adress{
+    width: 770px;
+    
+   
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: -.022em;
+    color: #898989;
+}
+.comunication__data{
+    font-size: 20px;
+    color: #f6c43d;
+    font-family: "Ubuntu",sans-serif;
 }
 
-.facebook__icon{
+    
+
+.social__icons{
     display: flex;
-   margin-left: 5px;
-   margin-right: 5px;
-   margin-bottom: 10px;
-    width: 30px;
-    height: 30px;
-}
-.instagram__icon{
-    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-right: 5px;
     margin-left: 5px;
-   margin-right: 5px;
-   margin-bottom: 10px;
-    width: 30px;
-    height: 30px;
+
 }
-.youtube__icon{
-    display: flex;
-    margin-left: 5px;
-   margin-right: 5px;
-   margin-bottom: 10px;
-    width: 30px;
-    height: 30px;
+.contacts__btn{
+
+    width: 155px;
+    background-color: #f6c43d;
+    padding: 15px 10px;
+    border: none ;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-family: "Ubuntu",sans-serif;
+    font-weight: 700;
+
+    color: white;
+}
+
+.contacts__map{   
+    padding-bottom: 120px;
+    width: 735px;
+  
+
 }
