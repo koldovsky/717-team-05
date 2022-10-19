@@ -1,7 +1,6 @@
 /* Lora Yaremchuk start Section- Pick up your car */
 .pickup{
-    
-    background-color: #222;
+     background-color: #222;
     text-align: center;
     
 }
@@ -9,7 +8,6 @@
 .pickup__subtitle{
     font-weight: 500;
     letter-spacing: 0.12em;
-   
     font-size: 14px;
     margin-bottom: 28px;
     color: #f6c43d;
