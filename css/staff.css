@@ -105,6 +105,24 @@
 }
 .staff__position-consultant {
 }
+@media(min-width: 768px) {
+    .staff__position {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .staff__position-ceo {
+        grid-column: 1/3;
+    }
+    .staff__position-cto {
+        grid-column: 3/5;
+    }
+    .staff__position-consultant {
+        grid-column: 2/4;
+        align-content: center;
+        /* justify-self: center; */
+        /* justify-items: center; */
+    }
+}
 @media(min-width: 992px) {
     .staff__position {
         display: flex;
@@ -115,8 +133,8 @@
     }       
     .staff__position-image {
         margin: auto;
-        height: 400px;
-        max-width: 300px;
-        padding: 0;
+        max-height: 600px;
+        max-width: 450px;
+        padding: 0 15px;
     }
 }
