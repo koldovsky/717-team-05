@@ -5,31 +5,29 @@
     text-align: center;
 }
 
-.comtainer testimonial-1 {
+.comtainer-testimonial {
+    border-width: 0px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    border-width: 0px;
-    margin-top: 40px;
 }
 
-.container testimonial-2 {
+
+
+.testimonial-2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    border-width: 0px;
-    margin-top: 40px;
 }
 
-.container testimonial-3 {
+.testimonial-3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    border-width: 0px;
-    margin-top: 40px;
 }
 
 .testimonials-description {
@@ -101,6 +99,3 @@ h5 {
     margin-top: 1em;
     margin-bottom: 0.7em;
 }
-
-border-width: 0px;
-    margin-top: 40px;
