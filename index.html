@@ -7,7 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car Rental</title>
     <link rel="shortcut icon" href="img/car-icon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
+   
 </head>
 <!-- 1Levko Tkach-->
 <!-- 2Valentyna-->
@@ -24,37 +27,59 @@
 <!--Levko Tkach start-->
 
 <body>
-    <header class="header container">
+    <header class="header">
         <nav class="header__nav">
-            <div class="header__logo__container">
-                <img src="img/car-logo.svg" alt="car-logo">
-            </div>
-            <input class="imput__checkbox" type="checkbox">
-            <ul class="header__menu">
-                <li class="header__menu__item"><a href="#About_us">About us</a></li>
-                <li class="header__menu__item"><a href="#Cars_of_the_mont">Cars of the mont</a></li>
-                <li class="header__menu__item"><a href="#Pricing">Pricing</a></li>
-                <li class="header__menu__item"><a href="#Testimonials">Testimonials</a></li>
-                <li class="header__menu__item"><a href="#Contact_us">Contact us</a></li>
-            </ul>
-            <div class="container__social__icon">
-                <a rel="facebook" target="_blank" href="https://facebook.com/"><img class="social__icon"
-                        src="img/facebook-icon.svg" alt="facebook-icon"></a>
-                <a rel="instagram" target="_blank" href="https://instagram.com/"><img class="social__icon"
-                        src="img/instagram-icon.svg" alt="instagram-icon"></a>
-                <a rel="youtube" target="_blank" href="https://youtube.com/"><img class="social__icon"
-                        src="img/youtube-icon.svg" alt="youtube-icon"> </a>
-            </div>
-        </nav>
+            <nav class="navbar">
+                <div class="navbar__container">
+                    <div class="header__logo__container">
+                        <img src="img/car-logo.svg" alt="car-logo">
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navburger"
+                        aria-controls="navburger">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas" tabindex="-1" id="navburger" aria-labelledby="navburgerLabel">
+                        <div class="offcanvas-header">
+                            <div class="header__logo__container">
+                                <img src="img/car-logo.svg" alt="car-logo">
+                            </div>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-center">
 
+                                <li class="header__nav__item"><a href="#About_us">About us</a></li>
+                                <li class="header__nav__item"><a href="#Cars_of_the_mont">Cars of the mont</a></li>
+                                <li class="header__nav__item"><a href="#Pricing">Pricing</a></li>
+                                <li class="header__nav__item"><a href="#Testimonials">Testimonials</a></li>
+                                <li class="header__nav__item"><a href="#Contact_us">Contact us</a></li>
+                                </li>
+                            </ul>
+                            <div class="container__social__icon">
+                                <a rel="facebook" target="_blank" href="https://facebook.com/"><img class="social__icon"
+                                        src="img/facebook-icon.svg" alt="facebook-icon"></a>
+                                <a rel="instagram" target="_blank" href="https://instagram.com/"><img
+                                        class="social__icon" src="img/instagram-icon.svg" alt="instagram-icon"></a>
+                                <a rel="youtube" target="_blank" href="https://youtube.com/"><img class="social__icon"
+                                        src="img/youtube-icon.svg" alt="youtube-icon"> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </nav>
+    </header>
+    <section class="container">
         <div class="title__wrapper">
             <div class="title__before">
-                <p><span class="title__divider">—</span> Comfortable driving in <span class="title__nuc">NYC</span></p>
+                <p><span class="title__divider">—</span> Comfortable driving in <span class="title__nuc">NYC</span>
+                </p>
             </div>
 
-            <span class="title__main">
-                <h1>CAR <br> RENTAL</h1>
-            </span>
+            <div class="title__main">
+                <h1>CAR<br> RENTAL</h1>
+            </div>
             <div class="title__buton">
                 <a href="#lern-more">LEARN MORE</a>
                 <span class="pricin__roll">
@@ -62,7 +87,8 @@
                 </span>
             </div>
         </div>
-    </header>
+        </div>
+    </section>
     <main>
         <div class="car__wrapper container">
             <div class="car__type">
@@ -93,17 +119,19 @@
                 </div>
             </div>
         </div>
-        <div class="about container">
-            <h2><span>— </span>MEET FASTCAR</h2>
-            <p class="about__title">About Us</p>
-            <p class="about__idea">We do everything for you to drive with maximum comfort!</p>
-            <p class="about__text">Our company has been operating on the US car rental market for over 10 years.
-                You can rent a car for any purpose, from a business trip to conquering roads with difficult
-                surfaces.<br><br>
-                We have several pick-up locations in New York so that you can take and leave the rented car in
-                any convenient place. FASTCAR offers the most favorable conditions for car rental.<br><br>
-            </p>
-            <a href="#CONTACT_US">CONTACT US</a>
+        <div class="container">
+            <div class="about">
+                <h2><span>— </span>MEET FASTCAR</h2>
+                <p class="about__title">About Us</p>
+                <p class="about__idea">We do everything for you to drive with maximum comfort!</p>
+                <p class="about__text">Our company has been operating on the US car rental market for over 10 years.
+                    You can rent a car for any purpose, from a business trip to conquering roads with difficult
+                    surfaces.<br><br>
+                    We have several pick-up locations in New York so that you can take and leave the rented car in
+                    any convenient place. FASTCAR offers the most favorable conditions for car rental.<br><br>
+                </p>
+                <a href="#CONTACT_US">CONTACT US</a>
+            </div>
         </div>
         <!--Levko Tkach end-->
 
@@ -269,8 +297,8 @@
         <!--Pavlo Yahla end-->
 
         <!--Lora Yaremchuk start-->
-        <section class="pickup">
-            <div class="pickup__container">
+        <section class="pickup section">
+            <div class="pickup container">
                 <p class="pickup__subtitle">
                     <span>—</span>
                     OFFICES
@@ -281,112 +309,99 @@
                     fill out
                     the documents, and pick up your car!</p>
             </div>
-            <div class="gallery__upper">
-                <img width="150" src="img/choosing.jpeg" alt="Choosing a car" class="pickup__gallery-image">
-                <img width="150" src="img/carkey.jpeg" alt="Getting car key" class="pickup__gallery-image">
-            </div>
-            <div class="gallery__bottom">
-                <img width="150" src="img/car.jpeg" alt="A car" class="pickup__gallery-image">
-                <img width="150" src="img/purchase.jpeg" alt="Purchase" class="pickup__gallery-image">
-            </div>
-        </section>
+            <ul class="pickup__list">
+                <li class="pickup__list__item"> <img src="./img/choosing.jpeg" alt="choosing a car">  </li>
+                <li class="pickup__list__item"> <img src="./img/carkey.jpeg" alt="getting a car key"> </li>
+                <li class="pickup__list__item"> <img src="./img/car.jpeg" alt="car photo">  </li>
+                <li class="pickup__list__item"> <img src="./img/purchase.jpeg" alt="buying a car">  </li>
+               </ul>
+            </section>
         <!--Lora yaremchuk end-->
 
         <!--Yulia Yaremchuk-->
         <section class="pricing">
-            <p class="pricing__subtitle">
-                <span class="pricing__divider">—</span>RATES
-            </p>
-            <h2 class="pricing__title">Clear Pricing</h2>
-            <p class="pricing__text">You pay not for the model of the car but for its class. We offer not only
-                the best luxury cars but also the most favorable conditions for any rental period.</p>
-            <div class="pricing__promo">
-                <div class="promo__per-day">
-                    <p class="promo__suvs-150per-day-subtitle">
-                        <span class="suvs-150per-day-divider">—</span>SUVs
+            <div class="pricing__container">
+                <div class="title__container">
+                    <p class="pricing__subtitle">
+                        <span class="pricing__divider">—</span>RATES
                     </p>
-                    <h2 class="promo__suvs-150per-day-title">$150</h2>
-                    <p class="promo__suvs-150per-day-text">per day</p>
-                    <ul class="promo__suvs-150per-examples">
-                        <li>
-                            <p class="mark">
-                                <img width="10" src="img/green-check-mark.svg" alt="green check mark">
-                                Ford Everest
-                            </p>
-                        </li>
-                        <li>
-                            <p class="mark">
-                                <img width="10" src="img/green-check-mark.svg" alt="green check mark">
-                                Nissan X-Trail
-                            </p>
-                        </li>
-                        <li>
-                            <p class="mark">
-                                <img width="10" src="img/green-check-mark.svg" alt="green check mark">
-                                Suzuki Escudo or similar
-                            </p>
-                        </li>
-                    </ul>
-                    <a href="#rent" class="promo__rent-link-button">RENT A CAR</a>
+                    <h2 class="pricing__title">Clear Pricing</h2>
+                    <p class="pricing__text">You pay not for the model of the car but for its class. We offer not only
+                        the best luxury cars but also the most favorable conditions for any rental period.</p>
                 </div>
-                <div class="promo__per-day">
-                    <p class="promo__luxury-390per-day-subtitle">
-                        <span class="luxury-390per-day-divider">—</span>LUXURY
-                    </p>
-                    <h2 class="promo__luxury-390per-day-title">$390</h2>
-                    <p class="promo__luxury-390per-day-text">per day</p>
-                    <ul class="promo__luxury-390per-day-examples">
-                        <li>
-                            <p class="mark">
-                                <img width="10" src="img/green-check-mark.svg" alt="green check mark">
-                                Lexus SX350
-                            </p>
-                        </li>
-                        <li>
-                            <p class="mark">
-                                <img width="10" src="img/green-check-mark.svg" alt="green check mark">
-                                Jaguar XF
-                            </p>
-                        </li>
-                        <li>
-                            <p class="mark">
-                                <img width="10" src="img/green-check-mark.svg" alt="green check mark">
-                                Audi A6 or similar
-                            </p>
-                        </li>
-                    </ul>
-                    <a href="#rent" class="promo__rent-link-button">RENT A CAR</a>
-                </div>
-                <div class="promo__per-day">
-                    <p class="promo__luxury-500per-day-subtitle">
-                        <span class="luxury-500per-day-divider">—</span>LUXURY
-                    </p>
-                    <h2 class="promo__luxury-500per-day-title">$500</h2>
-                    <p class="promo__luxury-500per-day-text">per day</p>
-                    <ul class="promo__luxury-500per-day-examples">
-                        <li>
-                            <p class="mark">
-                                <img width="10" src="img/green-check-mark.svg" alt="green check mark">
-                                McLaren Senna
-                            </p>
-                        </li>
-                        <li>
-                            <p class="mark">
-                                <img width="10" src="img/green-check-mark.svg" alt="green check mark">
-                                Porsche 911 GT2 RS
-                            </p>
-                        </li>
-                        <li>
-                            <p class="mark">
-                                <img width="10" src="img/green-check-mark.svg" alt="green check mark">
-                                Ford GT or similar
-                            </p>
-                        </li>
-                    </ul>
-                    <a href="#rent" class="promo__rent-link-button">RENT A CAR</a>
-                </div>
-                <div>
-                    <p> tralala</p>
+                <div class="pricing__promo">
+                    <div class="promo__per-day">
+                        <p class="promo__subtitle">
+                            <span class="suvs-150per-day-divider">—</span>SUVs
+                        </p>
+                        <div class="promo__price">
+                            <p class="promo__dollar">$</p>
+                            <p class="promo__value">150</p>
+                        </div>
+                        <p class="promo__text">per day</p>
+                        <ul class="promo__examples">
+                            <li>
+                                <p class="mark-text">Ford Everest</p>
+                            </li>
+                            <li>
+                                <p class="mark-text">Nissan X-Trail</p>
+                            </li>
+                            <li>
+                                <p class="mark-text">Suzuki Escudo or similar</p>
+                            </li>
+                        </ul>
+                        <div class="promo-btn">
+                            <a href="#rent" class="promo__rent-link-button">RENT A CAR</a>
+                        </div>
+                    </div>
+                    <div class="promo__390per-day">
+                        <p class="promo__subtitle390">
+                            <span class="luxury-390per-day-divider">—</span>LUXURY
+                        </p>
+                        <div class="promo__price">
+                            <span class="promo__dollar390">$</span>
+                            <span class="promo__value390">390</span>
+                        </div>
+                        <p class="promo__text390">per day</p>
+                        <ul class="promo__examples390">
+                            <li>
+                                <p class="mark-text390">Lexus SX350</p>
+                            </li>
+                            <li>
+                                <p class="mark-text390">Jaguar XF</p>
+                            </li>
+                            <li>
+                                <p class="mark-text390">Audi A6 or similar</p>
+                            </li>
+                        </ul>
+                        <div class="promo-btn">
+                            <a href="#rent" class="promo__rent-link-button">RENT A CAR</a>
+                        </div>
+                    </div>
+                    <div class="promo__500per-day">
+                        <p class="promo__subtitle">
+                            <span class="luxury-500per-day-divider">—</span>LUXURY
+                        </p>
+                        <div class="promo__price">
+                            <p class="promo__dollar">$</p>
+                            <p class="promo__value">500</p>
+                        </div>
+                        <p class="promo__text">per day</p>
+                        <ul class="promo__examples">
+                            <li>
+                                <p class="mark-text">McLaren Senna</p>
+                            </li>
+                            <li>
+                                <p class="mark-text">Porsche 911 GT2 RS</p>
+                            </li>
+                            <li>
+                                <p class="mark-text">Ford GT or similar</p>
+                            </li>
+                        </ul>
+                        <div class="promo-btn">
+                            <a href="#rent" class="promo__rent-link-button">RENT A CAR</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -402,7 +417,7 @@
             <div class="staff__position">
                 <aside class="staff__position-ceo position">
                     <div class="staff__position-photo"><img src="img/ceo-position.webp" class="staff__position-image"
-                        alt="Chief Executive Officer's photo">
+                            alt="Chief Executive Officer's photo">
                     </div>
                     <p class="staff__position-name">Douglas Shimmer</p>
                     <div class="staff__position-line"></div>
@@ -415,7 +430,7 @@
                 </aside>
                 <aside class="staff__position-cto position">
                     <div class="staff__position-photo"><img src="img/cto-position.webp" class="staff__position-image"
-                        alt="Chief technical officer's photo">
+                            alt="Chief technical officer's photo">
                     </div>
                     <p class="staff__position-name">Don Mastando</p>
                     <div class="staff__position-line"></div>
@@ -427,8 +442,8 @@
                     </div>
                 </aside>
                 <aside class="staff__position-consultant position">
-                    <div class="staff__position-photo"><img src="img/prime-consultant-position.webp" class="staff__position-image"
-                        alt="Prime Consultant's photo">
+                    <div class="staff__position-photo"><img src="img/prime-consultant-position.webp"
+                            class="staff__position-image" alt="Prime Consultant's photo">
                     </div>
                     <p class="staff__position-name">Andrew Wollace</p>
                     <div class="staff__position-line"></div>
@@ -446,50 +461,54 @@
         <!-- Kateryna Petrenko start-->
 
         <section class="testimonials">
-            <h2>— FEEDBACK</h2>
-            <h4>Testimonials</h4>
-            <p class="testimonials-descr">Every day, dozens of people go to work or travel by cars rented with FASTCAR.
-            </p>
-
-            <div class="testimonial-1">
-                <img src="img/testimonial1.webp" alt="testimonial-1">
-                <p class="testimonial-name">Jane McCallan</p>
-                <p class="testimonial-position">Marketing Director at Pepsi Co.</p>
-                <p class="testimonial-description">
-                    I am completely satisfied with the services of this company. I often
-                    rent cars with FASTCAR for business meetings, driving to work, etc. I
-                    am pleased with the excellent technical condition of the cars,
-                    favourable rental conditions. And the staff is always friendly.
+            <div class="testimonials-general">
+                <h4>— FEEDBACK</h4>
+                <h5>Testimonials</h5>
+                <p class="testimonials-descr">Every day, dozens of people go to work or travel by cars rented with
+                    FASTCAR.
                 </p>
-                <p class="testimonial-date">December 15, 2019</p>
             </div>
 
-            <div class="testimonial-2">
-                <img src="img/testimonial2.webp" alt="testimonial-2">
-                <p class="testimonial-name">Daniel Gordons</p>
-                <p class="testimonial-position">CEO at MyVent</p>
-                <p class="testimonial-description">
-                    When I was driving to one of the most important meetings in my life,
-                    my car broke down... Only a few hours remained, and a new car was
-                    urgently needed. Thanks to the FASTCAR specialists, I managed to
-                    quickly rent a luxury car. They immediately solved my problem.
-                </p>
-                <p class="testimonial-date">January 08, 2020</p>
-            </div>
+            <section class="all-testimonials">
+                <div class="container testimonial-1">
+                    <img src="img/testimonial 1.jpeg" alt="testimonial-1" class="testimonial-image">
+                    <p class="testimonial-name">Jane McCallan</p>
+                    <p class="testimonial-position">Marketing Director at Pepsi Co.</p>
+                    <p class="testimonial-description">
+                        I am completely satisfied with the services of this company. I often
+                        rent cars with FASTCAR for business meetings, driving to work, etc. I
+                        am pleased with the excellent technical condition of the cars,
+                        favourable rental conditions. And the staff is always friendly.
+                    </p>
+                    <p class="testimonial-date">December 15, 2019</p>
+                </div>
 
-            <div class="testimonial-3">
-                <img src="img/testimonial3.webp" alt="testimonial-3">
-                <p class="testimonial-name">Elizabeth Smith</p>
-                <p class="testimonial-position">Director of Media at Legal Company</p>
-                <p class="testimonial-description">
-                    I love sports cars and fast driving but I can't buy such a car, it's too
-                    expensive. Therefore, sometimes I rent sports cars to enjoy the speed.
-                    I choose this company because of the attractive pricing policy and a
-                    wide selection of luxury vehicles.
-                </p>
-                <p class="testimonial-date">April 04, 2020</p>
-            </div>
+                <div class="container testimonial-2">
+                    <img src="img/testimonial 2.jpeg" alt="testimonial-2" class="testimonial-image">
+                    <p class="testimonial-name">Daniel Gordons</p>
+                    <p class="testimonial-position">CEO at MyVent</p>
+                    <p class="testimonial-description">
+                        When I was driving to one of the most important meetings in my life,
+                        my car broke down... Only a few hours remained, and a new car was
+                        urgently needed. Thanks to the FASTCAR specialists, I managed to
+                        quickly rent a luxury car. They immediately solved my problem.
+                    </p>
+                    <p class="testimonial-date">January 08, 2020</p>
+                </div>
 
+                <div class="container testimonial-3">
+                    <img src="img/testimonial 3.jpeg" alt="testimonial-3" class="testimonial-image">
+                    <p class="testimonial-name">Elizabeth Smith</p>
+                    <p class="testimonial-position">Director of Media at Legal Company</p>
+                    <p class="testimonial-description">
+                        I love sports cars and fast driving but I can't buy such a car, it's too
+                        expensive. Therefore, sometimes I rent sports cars to enjoy the speed.
+                        I choose this company because of the attractive pricing policy and a
+                        wide selection of luxury vehicles.
+                    </p>
+                    <p class="testimonial-date">April 04, 2020</p>
+                </div>
+            </section>
         </section>
         <!-- Kateryna Petrenko end-->
 
@@ -554,7 +573,7 @@
                 </div>
                 <div class="comunication__data">
                     <p class="comunication__number">
-                        <a class="tel" href="+1 (234) 567 89 00">+1 (234) 567 89 00</a>
+                        <a class="tel" href="+1(234)5678900">+1 (234) 567 89 00</a>
                     </p>
                     <p class="comunication__email">
                         <a class="e-mail" href="fastcar@email.com">fastcar@email.com</a>
@@ -611,7 +630,9 @@
         </section>
     </footer>
     <!-- Roman Romaniv -->
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

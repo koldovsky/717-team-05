@@ -1,0 +1,106 @@
+.testimonials-general {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.comtainer testimonial-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-width: 0px;
+    margin-top: 40px;
+}
+
+.container testimonial-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-width: 0px;
+    margin-top: 40px;
+}
+
+.container testimonial-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-width: 0px;
+    margin-top: 40px;
+}
+
+.testimonials-description {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color: #222;
+    line-height: 1.65px;
+}
+
+.testimonial-image {
+    border-radius: 50%;
+    width: 15%;
+}
+
+.testimonial-name {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size:  28px;
+    font-weight: bold;
+    line-height: 1.3px;
+    color: #222;
+}
+
+.testimonial-position {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    color: #b3b3b3;
+    line-height: 1.6px;
+}
+
+.testimonial-description {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    color: #898989;
+    line-height: 1.62px;
+}
+
+.testimonial-date {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    color: #b3b3b3;
+    line-height: 1.6px;
+}
+
+.testimonials-general {
+    margin-top: 110px;
+}
+
+.all-testimonials {
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h4 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #f6c43d;
+    line-height: 1.6px;
+}
+
+h5 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size:  65px;
+    font-weight: bold;
+    line-height: 1px;
+    color: #222;
+    margin-top: 1em;
+    margin-bottom: 0.7em;
+}
+
+border-width: 0px;
+    margin-top: 40px;
