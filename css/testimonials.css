@@ -8,14 +8,13 @@
 .comtainer-testimonial {
     border-width: 0px;
     margin-top: 40px;
-}
-
-.testimonial-1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
 }
+
+
 
 .testimonial-2 {
     display: flex;
