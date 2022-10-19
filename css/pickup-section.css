@@ -1,13 +1,17 @@
 /* Lora Yaremchuk start Section- Pick up your car */
 .pickup{
-    padding: 50px 0 90px 0;
-    background-color: #222;
+     background-color: #222;
     text-align: center;
     
 }
 
 .pickup__subtitle{
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    font-size: 14px;
+    margin-bottom: 28px;
     color: #f6c43d;
+    
 }
 
 .divider{
@@ -15,26 +19,39 @@
 }
 
 .pickup__title{
+    font-size: 65px;
+    margin-bottom: 16px;
     color: #fff;
-    font-weight: bold;
+    font-weight: 700;
+    font-family:"Barlow Condensed", sans-serif ;
     
 }
 
 .header__description{
+    width: 770px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: -.022em;
     color: rgba(255,255,255,0.67);
 }
 
-.gallery__upper{
-    width: 350px;
+.pickup__list{
     display: flex;
-    grid-template-columns: 300px 300px;
- 
-     
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: center;
 }
 
-.gallery__bottom{
-    width: 350px;
-    display: flex;
-    grid-template-columns: 300px 300px;
-   
+.pickup__list__item{
+    width: 570px;
+    margin-left: 30px;
+    margin-top: 30px;
+    
+    overflow: hidden;
+    border-radius: 6px;
 }
