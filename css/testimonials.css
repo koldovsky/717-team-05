@@ -73,6 +73,9 @@
 
 .all-testimonials {
     margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 h4 {
@@ -90,5 +93,9 @@ h5 {
     line-height: 1px;
     color: #222;
     margin-top: 1em;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.7em;
+}
+
+.testimonial-image {
+    width: 15%;
 }
