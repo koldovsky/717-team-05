@@ -5,25 +5,31 @@
     text-align: center;
 }
 
-.testimonial-1 {
+.comtainer testimonial-1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    border-width: 0px;
+    margin-top: 40px;
 }
 
-.testimonial-2 {
+.container testimonial-2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    border-width: 0px;
+    margin-top: 40px;
 }
 
-.testimonial-3 {
+.container testimonial-3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    border-width: 0px;
+    margin-top: 40px;
 }
 
 .testimonials-description {
@@ -35,6 +41,7 @@
 
 .testimonial-image {
     border-radius: 50%;
+    width: 15%;
 }
 
 .testimonial-name {
@@ -53,7 +60,6 @@
 }
 
 .testimonial-description {
-    
     font-family: 'Ubuntu', sans-serif;
     font-size: 17px;
     color: #898989;
@@ -96,6 +102,5 @@ h5 {
     margin-bottom: 0.7em;
 }
 
-.testimonial-image {
-    width: 15%;
-}
+border-width: 0px;
+    margin-top: 40px;
