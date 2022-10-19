@@ -38,6 +38,7 @@
 .staff__position-image {
     margin: 50px 0 0 0;
     padding: 0 15px;
+    border-radius: 10px;
 }
 .staff__position-name {
     margin: 20px 0 0 0;
@@ -52,7 +53,7 @@
     text-align: center;
     background-color: var(--first-accent-color);
     display: flex;
-    width: 7%;
+    width: 17%;
     margin: auto;
 }
 .staff__position-appointment {
@@ -67,6 +68,20 @@
     margin-top: 30px;
     display: flex;
     justify-content: center;
+}
+.icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 15px;
+}
+.facebook-icon:hover {
+    fill: var(--light-text-color);
+}
+.instagram-icon:hover {
+    fill: var(--light-text-color);
+}
+.youtube-icon:hover {
+    fill: var(--light-text-color);
 }
 .facebook {
 }
@@ -93,22 +108,15 @@
 @media(min-width: 992px) {
     .staff__position {
         display: flex;
-        /* justify-content: center; */
         margin-top: 50px;
-        /* margin-left: auto;
-        margin-right: auto; */
     }
     .position {
         width: 33%;
-        /* height: 300px; */
     }       
     .staff__position-image {
         margin: auto;
         height: 400px;
         max-width: 300px;
         padding: 0;
-    }     
-    .staff__position-ceo {
-        margin: auto;
     }
 }
