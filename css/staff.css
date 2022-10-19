@@ -1,7 +1,11 @@
 .staff {
-    background-image: url(../img/dark-background.webp);
     color: var(--snow-color);
-    padding: 50px 0 0 0;
+    background-image: url(../img/dark-background.webp);
+}
+.staff__container {
+    padding: 90px 24px;
+    backdrop-filter: blur(5px) brightness(50%);
+
 }
 .staff__brief {
     display: flex;
@@ -106,6 +110,11 @@
 .staff__position-consultant {
 }
 @media(min-width: 768px) {
+    .staff {
+    }
+    .staff__container {
+        padding: 100px 32px 105px 32px;
+    }
     .staff__position {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -119,11 +128,14 @@
     .staff__position-consultant {
         grid-column: 2/4;
         align-content: center;
-        /* justify-self: center; */
-        /* justify-items: center; */
     }
 }
 @media(min-width: 992px) {
+    .staff {
+    }
+    .staff__container {
+        padding: 110px 40px 100px 40px;
+    }
     .staff__position {
         display: flex;
         margin-top: 50px;
