@@ -26,13 +26,17 @@ h2,
 h3 {
     font-family: 'Barlow Condensed', sans-serif;
 }
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
 
 img {
     width: 100%;
     display: block;
 }
 .container{
-    border: 1px solid #898989;
     min-width: 340px;
     max-width: 1200px;
     margin: auto;

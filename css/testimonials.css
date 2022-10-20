@@ -3,45 +3,66 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    min-width: 320px;
+    max-width: 1200px;
+    margin: auto;
 }
 
-.comtainer testimonial-1 {
+.comtainer-testimonial {
+    border-width: 0px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    border-width: 0px;
-    margin-top: 40px;
 }
 
-.container testimonial-2 {
+.testimonial-1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    border-width: 0px;
-    margin-top: 40px;
+    margin-top: 50px;
+    min-width: 320px;
+    max-width: 700px;
+    margin-top: 50px;
 }
 
-.container testimonial-3 {
+.testimonial-2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    border-width: 0px;
-    margin-top: 40px;
+    margin-top: 50px;
+    min-width: 320px;
+    max-width: 700px;
+    margin-top: 50px;
+}
+
+.testimonial-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    min-width: 320px;
+    max-width: 700px;
+    margin-top: 50px;
 }
 
 .testimonials-description {
     font-family: 'Ubuntu', sans-serif;
     font-size: 18px;
     color: #222;
-    line-height: 1.65px;
 }
 
 .testimonial-image {
     border-radius: 50%;
-    width: 15%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
 }
 
 .testimonial-name {
@@ -50,6 +71,7 @@
     font-weight: bold;
     line-height: 1.3px;
     color: #222;
+    margin-top: 30px;
 }
 
 .testimonial-position {
@@ -57,13 +79,14 @@
     font-size: 14px;
     color: #b3b3b3;
     line-height: 1.6px;
+    margin-top: 25px;
 }
 
 .testimonial-description {
     font-family: 'Ubuntu', sans-serif;
     font-size: 17px;
     color: #898989;
-    line-height: 1.62px;
+    margin-top: 40px;
 }
 
 .testimonial-date {
@@ -71,6 +94,7 @@
     font-size: 14px;
     color: #b3b3b3;
     line-height: 1.6px;
+    margin-top: 30px;
 }
 
 .testimonials-general {
@@ -101,6 +125,3 @@ h5 {
     margin-top: 1em;
     margin-bottom: 0.7em;
 }
-
-border-width: 0px;
-    margin-top: 40px;
