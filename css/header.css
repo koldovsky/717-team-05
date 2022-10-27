@@ -9,23 +9,26 @@ body {
     background-position-x: center;
 }
 
-.header{
+.header {
     margin-top: 35px;
-    
+
 }
 
 .header__logo__container {
+    z-index: 10000;
     max-width: 97px;
 }
 
 
-.navbar{
+.navbar {
     padding-top: 35px;
 }
+
 .navbar-toggler {
     border: 0px;
 }
-.navbar__container{
+
+.navbar__container {
     min-width: 340px;
     max-width: 1200px;
     margin: auto;
@@ -35,48 +38,40 @@ body {
     width: 100%;
 
 }
-.offcanvas{
-    top:0;
+
+.offcanvas {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
     align-items: center;
-    padding-top:70px;
+    padding-top: 70px;
     width: 100%;
     min-width: 340px;
     max-width: 1200px;
     margin: auto;
-
 }
 
-.offcanvas-header{
-    padding:0;
+.btn-close {
+    position: absolute;
+    right: 65px;
+    top: 82px;
+}
+
+.offcanvas-header {
+    padding: 0;
     width: 100%;
     justify-content: space-between;
 }
 
-.offcanvas-body{
+.offcanvas-body {
     text-align: center;
+    margin: 35px;
 }
 
-
-
-
-.header__nav__container{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-.header__nav__list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.header__nav__list>li{
-    font-size: 17px;
+.header__nav__item {
     margin: 10px 0;
-}
-
-.header__nav__item>a {
     font-size: 17px;
     font-weight: 500;
     text-decoration: none;
@@ -163,7 +158,7 @@ body {
     width: 100px;
     display: flex;
     align-items: center;
-    justify-content: right; 
+    justify-content: right;
 }
 
 .pricin__roll>a {
@@ -178,5 +173,5 @@ body {
 
 .pricin__roll>a>img {
     width: 18px;
-   
+
 }
