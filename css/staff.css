@@ -119,13 +119,22 @@
     .staff {
     }
     .staff__container {
-        padding: 100px 32px 105px 32px;
+        /* padding: 100px 32px 105px 32px; */
+        
     }
     .staff__position {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        /* justify-self: center; */
+        margin: auto;
+        
     }
-    .staff__position-ceo {
+    .position {
+        grid-column: 1/3;
+
+    }
+    /* .staff__position-ceo {
         grid-column: 1/3;
     }
     .staff__position-cto {
@@ -134,28 +143,28 @@
     .staff__position-consultant {
         grid-column: 2/4;
         align-content: center;
-    }
+    } */
 }
 @media(min-width: 992px) {
     .staff {
     }
     .staff__container {
-        min-width: 320px;
+        /* min-width: 320px;
         max-width: 1200px;
         margin: auto;
-        padding: 110px 40px 100px 40px;
+        padding: 110px 40px 100px 40px; */
     }
     .staff__position {
         display: flex;
         margin-top: 50px;
     }
     .position {
-        width: 33%;
+        /* width: 33%; */
     }       
     .staff__position-image {
-        margin: auto;
+        /* margin: auto;
         max-height: 600px;
         max-width: 450px;
-        padding: 0 15px;
+        padding: 0 15px; */
     }
 }
