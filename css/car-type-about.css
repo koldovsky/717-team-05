@@ -53,6 +53,7 @@
 .about__background {
     background-image: url(/img/background_bmw.png);
     background-repeat: no-repeat;
+    background-size: cover;
     
 }
 
@@ -61,7 +62,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-
+    max-width: 40%;
 }
 
 .about>h2 {

@@ -9,10 +9,6 @@ h2 {
     background-position-x: center;
 }
 
-.header {
-    margin-top: 35px;
-
-}
 
 .header__logo__container {
     z-index: 10000;
@@ -63,8 +59,8 @@ h2 {
 
 .btn-close {
     position: absolute;
-    right: 65px;
-    top: 82px;
+    right: 70px;
+    top: 55px;
 }
 
 .offcanvas-header {
@@ -76,6 +72,10 @@ h2 {
 .offcanvas-body {
     text-align: center;
     margin: 35px;
+}
+
+.offcanvas-body > .container__social__icon {
+    margin: 40px auto;
 }
 
 .header__nav__item {
@@ -90,6 +90,7 @@ h2 {
 .header__nav__item:hover {
     color: var(--first-accent-color);
 }
+
 
 .container__social__icon {
     width: 120px;
@@ -123,14 +124,16 @@ h2 {
 
 .title__main {
     font-family: 'Barlow Condensed', sans-serif;
-    overflow-wrap: break-word;
+    word-wrap: break-word;
     font-size: 200px;
-    width: 165px;
     font-weight: 600;
-    display: inline-flex;
     margin-top: 25px;
-
 }
+.clock {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 800;
+    font-size: 100px;
+}   
 
 .title__buton {
     width: 305px;
@@ -187,9 +190,10 @@ h2 {
     .navbar__none {
         margin-right: 35px;
         display: flex;
-     
+
     }
-    .navbar__none > ul{
+
+    .navbar__none>ul {
         flex-direction: row;
     }
 
