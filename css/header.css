@@ -3,7 +3,7 @@ h2 {
     color: var(--first-accent-color);
 }
 
-body {
+.title__background {
     background-image: url(/img/header-background.webp);
     background-repeat: no-repeat;
     background-position-x: center;
@@ -36,6 +36,14 @@ body {
     padding: 0 35px;
     justify-content: space-between;
     width: 100%;
+}
+
+.navbar__none {
+    display: none;
+}
+
+.navbar__container>.no-button>.navbar-nav {
+    flex-direction: row;
 
 }
 
@@ -71,11 +79,12 @@ body {
 }
 
 .header__nav__item {
-    margin: 10px 0;
+    margin: 10px 17.5px;
     font-size: 17px;
     font-weight: 500;
     text-decoration: none;
     color: var(--dark-text-color);
+
 }
 
 .header__nav__item:hover {
@@ -90,7 +99,6 @@ body {
 }
 
 .social__icon {
-    margin-top: 90px;
     max-width: 30px;
 }
 
@@ -173,5 +181,18 @@ body {
 
 .pricin__roll>a>img {
     width: 18px;
-
 }
+
+@media (min-width:992px) {
+    .navbar__none {
+        margin-right: 35px;
+        display: flex;
+     
+    }
+    .navbar__none > ul{
+        flex-direction: row;
+    }
+
+    .button__none {
+        display: none;
+    }

@@ -1,15 +1,15 @@
 .car__wrapper {
     margin-top: 25px;
     margin-bottom: 25px;
-    
-    
+
+
 }
 
 .car__type {
     border: 1px solid var(--snow-color);
-    margin: 30px 10px ;
+    margin: 30px 10px;
     background-color: var(--snow-color);
-    
+
 }
 
 .car__type__inner {
@@ -36,7 +36,7 @@
 }
 
 .car__type__inner>a {
-    background-color: var(--first-accent-color);
+    
     color: var(--snow-color);
     font-weight: 700;
     width: 165px;
@@ -54,14 +54,18 @@
 }
 
 
-    
+.about__background {
+    background-image: url(/img/background_bmw.png);
+    background-repeat: no-repeat;
+    ba
+}
+
 .about {
-    
     margin: 50px 24px 60px 24px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    
+
 }
 
 .about>h2 {

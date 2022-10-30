@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
-   
+
 </head>
 <!-- 1Levko Tkach-->
 <!-- 2Valentyna-->
@@ -27,32 +27,22 @@
 <!--Levko Tkach start-->
 
 <body>
-    <header class="header">
-        <nav class="header__nav">
-            <nav class="navbar">
-                <div class="navbar__container">
-                    <div class="header__logo__container">
-                        <img src="img/car-logo.svg" alt="car-logo">
-                    </div>
-                    <div class="clock navbar-toggler"></div>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navburger"
-                        aria-controls="navburger">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="offcanvas" tabindex="-1" id="navburger">
-                        <div class="offcanvas-header">
-                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
-                                aria-label="Close"></button>
+    <div class="title__background">
+        <header class="header">
+            <nav class="header__nav">
+                <nav class="navbar">
+                    <div class="navbar__container">
+                        <div class="header__logo__container">
+                            <img src="img/car-logo.svg" alt="car-logo">
                         </div>
-                        <div class="offcanvas-body">
-                            <ul class="navbar-nav justify-content-center">
-
+                        <div class="clock navbar-toggler"></div>
+                        <div class="navbar__none">
+                            <ul class="navbar-nav">
                                 <li class="header__nav__item"><a href="#About_us">About us</a></li>
                                 <li class="header__nav__item"><a href="#Cars_of_the_mont">Cars of the mont</a></li>
                                 <li class="header__nav__item"><a href="#Pricing">Pricing</a></li>
                                 <li class="header__nav__item"><a href="#Testimonials">Testimonials</a></li>
                                 <li class="header__nav__item"><a href="#Contact_us">Contact us</a></li>
-                            
                             </ul>
                             <div class="container__social__icon">
                                 <a rel="facebook" target="_blank" href="https://facebook.com/"><img class="social__icon"
@@ -63,29 +53,58 @@
                                         src="img/youtube-icon.svg" alt="youtube-icon"> </a>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </nav>
-        </nav>
-    </header>
-    <section class="container">
-        <div class="title__wrapper">
-            <div class="title__before">
-                <p><span class="title__divider">—</span> Comfortable driving in <span class="title__nuc">NYC</span>
-                </p>
-            </div>
+                        <button class="navbar-toggler button__none" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#navburger" aria-controls="navburger">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="offcanvas" tabindex="-1" id="navburger">
+                            <div class="offcanvas-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav justify-content-center">
 
-            <div class="title__main">
-                <h1>CAR<br> RENTAL</h1>
+                                    <li class="header__nav__item"><a href="#About_us">About us</a></li>
+                                    <li class="header__nav__item"><a href="#Cars_of_the_mont">Cars of the mont</a></li>
+                                    <li class="header__nav__item"><a href="#Pricing">Pricing</a></li>
+                                    <li class="header__nav__item"><a href="#Testimonials">Testimonials</a></li>
+                                    <li class="header__nav__item"><a href="#Contact_us">Contact us</a></li>
+
+                                </ul>
+                                <div class="container__social__icon">
+                                    <a rel="facebook" target="_blank" href="https://facebook.com/"><img
+                                            class="social__icon" src="img/facebook-icon.svg" alt="facebook-icon"></a>
+                                    <a rel="instagram" target="_blank" href="https://instagram.com/"><img
+                                            class="social__icon" src="img/instagram-icon.svg" alt="instagram-icon"></a>
+                                    <a rel="youtube" target="_blank" href="https://youtube.com/"><img
+                                            class="social__icon" src="img/youtube-icon.svg" alt="youtube-icon"> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </nav>
+        </header>
+        <div class="container">
+            <div class="title__wrapper">
+                <div class="title__before">
+                    <p><span class="title__divider">—</span> Comfortable driving in <span class="title__nuc">NYC</span>
+                    </p>
+                </div>
+
+                <div class="title__main">
+                    <h1>CAR RENTAL</h1>
+                </div>
+                <div class="title__buton">
+                    <a href="#lern-more">LEARN MORE</a>
+                    <span class="pricin__roll">
+                        <a href="#pricing">PRACING <img src="img/right-arrow.svg" alt="right-arrow"></a>
+                    </span>
+                </div>
             </div>
-            <div class="title__buton">
-                <a href="#lern-more">LEARN MORE</a>
-                <span class="pricin__roll">
-                    <a href="#pricing">PRACING <img src="img/right-arrow.svg" alt="right-arrow"></a>
-                </span>
-            </div>
-        </div>        
-    </section>
+        </div>
+    </div>
     <main>
         <div class="car__wrapper container">
             <div class="car__type">
@@ -116,8 +135,8 @@
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="about">
+        <div class="container" id="About_us">
+            <div class="about about__background" >
                 <h2><span>— </span>MEET FASTCAR</h2>
                 <p class="about__title">About Us</p>
                 <p class="about__idea">We do everything for you to drive with maximum comfort!</p>
@@ -303,12 +322,12 @@
                     the documents, and pick up your car!</p>
             </div>
             <ul class="pickup__list">
-                <li class="pickup__list__item"> <img src="./img/choosing.jpeg" alt="choosing a car">  </li>
+                <li class="pickup__list__item"> <img src="./img/choosing.jpeg" alt="choosing a car"> </li>
                 <li class="pickup__list__item"> <img src="./img/carkey.jpeg" alt="getting a car key"> </li>
-                <li class="pickup__list__item"> <img src="./img/car.jpeg" alt="car photo">  </li>
-                <li class="pickup__list__item"> <img src="./img/purchase.jpeg" alt="buying a car">  </li>
-               </ul>
-            </section>
+                <li class="pickup__list__item"> <img src="./img/car.jpeg" alt="car photo"> </li>
+                <li class="pickup__list__item"> <img src="./img/purchase.jpeg" alt="buying a car"> </li>
+            </ul>
+        </section>
         <!--Lora yaremchuk end-->
 
         <!--Yulia Yaremchuk-->
@@ -350,9 +369,9 @@
                                         <a href="#rent" class="promo__rent-link-button">RENT A CAR</a>
                                     </div>
                                 </div>
-                            </div>           
+                            </div>
                         </div>
-                    </div>        
+                    </div>
                     <div class="promo__390grid">
                         <div class="promo__390per-day">
                             <p class="promo__subtitle390">
@@ -378,7 +397,7 @@
                                 <a href="#rent" class="promo__rent-link-button">RENT A CAR</a>
                             </div>
                         </div>
-                    </div>              
+                    </div>
                     <div class="promo__500grid">
                         <div class="promo__500grid-inner">
                             <div class="promo__500per-day">
@@ -418,7 +437,8 @@
                     <div class="staff__brief">
                         <p class="staff__brief-subtitle">— STAFF</p>
                         <h3 class="staff__brief-title">Our Team</h3>
-                        <p class="staff__brief-description">These people do everything to ensure that you enjoy driving in a
+                        <p class="staff__brief-description">These people do everything to ensure that you enjoy driving
+                            in a
                             comfortable, safe, and good-looking car.</p>
                     </div>
                     <div class="staff__position">
@@ -445,7 +465,9 @@
                     <p class="testimonial-name">Jane McCallan</p>
                     <p class="testimonial-position">Marketing Director at Pepsi Co.</p>
                     <p class="testimonial-description">
-                        I am completely satisfied with the services of this company. I often rent cars with FASTCAR for business meetings, driving to work, etc. I  am pleased with the excellent technical condition of the cars, favourable rental conditions. And the staff is always friendly.
+                        I am completely satisfied with the services of this company. I often rent cars with FASTCAR for
+                        business meetings, driving to work, etc. I am pleased with the excellent technical condition of
+                        the cars, favourable rental conditions. And the staff is always friendly.
                     </p>
                     <p class="testimonial-date">December 15, 2019</p>
                 </div>
@@ -455,7 +477,9 @@
                     <p class="testimonial-name">Daniel Gordons</p>
                     <p class="testimonial-position">CEO at MyVent</p>
                     <p class="testimonial-description">
-                        When I was driving to one of the most important meetings in my life, my car broke down... Only a few hours remained, and a new car was urgently needed. Thanks to the FASTCAR specialists, I managed to quickly rent a luxury car. They immediately solved my problem.
+                        When I was driving to one of the most important meetings in my life, my car broke down... Only a
+                        few hours remained, and a new car was urgently needed. Thanks to the FASTCAR specialists, I
+                        managed to quickly rent a luxury car. They immediately solved my problem.
                     </p>
                     <p class="testimonial-date">January 08, 2020</p>
                 </div>
@@ -465,7 +489,9 @@
                     <p class="testimonial-name">Elizabeth Smith</p>
                     <p class="testimonial-position">Director of Media at Legal Company</p>
                     <p class="testimonial-description">
-                        I love sports cars and fast driving but I can't buy such a car, it's too expensive. Therefore, sometimes I rent sports cars to enjoy the speed. I choose this company because of the attractive pricing policy and a wide selection of luxury vehicles.
+                        I love sports cars and fast driving but I can't buy such a car, it's too expensive. Therefore,
+                        sometimes I rent sports cars to enjoy the speed. I choose this company because of the attractive
+                        pricing policy and a wide selection of luxury vehicles.
                     </p>
                     <p class="testimonial-date">April 04, 2020</p>
                 </div>
@@ -542,25 +568,25 @@
                         </p>
                     </div>
                     <div class="social__icons">
-    
+
                         <a rel="facebook" target="_blank" href="https://facebook.com/"><img class="facebook__icon"
                                 src="img/facebook-icon.svg" alt="facebook-icon"></a>
                         <a rel="instagram" target="_blank" href="https://instagram.com/"><img class="instagram__icon"
                                 src="img/instagram-icon.svg" alt="instagram-icon"></a>
                         <a rel="youtube" target="_blank" href="https://youtube.com/"><img class="youtube__icon"
                                 src="img/youtube-icon.svg" alt="youtube-icon"> </a>
-        
+
                     </div>
                     <button class="contacts__btn" type="button">rent a car</button>
                 </div>
-                
-                </div>
-             <div class="contacts__map">
+
+            </div>
+            <div class="contacts__map">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.95914711895!2d-73.99838228454217!3d40.74092444378225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259bc954b73a7%3A0xef2172fc12351c90!2zMTMwIFcgMTl0aCBTdCwgTmV3IFlvcmssIE5ZIDEwMDExLCDQodCo0JA!5e0!3m2!1sru!2sua!4v1665937729701!5m2!1sru!2sua"
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div> 
+            </div>
         </section>
         <!--Lora Yaremchuk end2-->
     </main>
@@ -599,7 +625,7 @@
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
     <script src="js/clock.js"></script>
-    <script src="js/staff-people.js"></script> 
+    <script src="js/staff-people.js"></script>
 </body>
 
 </html>
