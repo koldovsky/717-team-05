@@ -1,15 +1,12 @@
 .car__wrapper {
     margin-top: 25px;
     margin-bottom: 25px;
-
-
 }
 
 .car__type {
     border: 1px solid var(--snow-color);
     margin: 30px 10px;
     background-color: var(--snow-color);
-
 }
 
 .car__type__inner {
@@ -36,8 +33,7 @@
 }
 
 .car__type__inner>a {
-    
-    color: var(--snow-color);
+       color: var(--snow-color);
     font-weight: 700;
     width: 165px;
     height: 48.5px;
