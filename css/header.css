@@ -87,7 +87,7 @@ h2 {
 
 }
 
-.header__nav__item:hover {
+.header__nav__item > a :hover {
     color: var(--first-accent-color);
 }
 
