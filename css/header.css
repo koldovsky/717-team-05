@@ -4,7 +4,7 @@ h2 {
 }
 
 .title__background {
-    background-image: url(/img/header-background.webp);
+    background-image: url(img/header-background.webp);
     background-repeat: no-repeat;
     background-position-x: center;
 }
