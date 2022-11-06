@@ -84,10 +84,11 @@ h2 {
     font-weight: 500;
     text-decoration: none;
     color: var(--dark-text-color);
-
+    --bs-link-hover-color: var(--first-accent-color);
 }
 
 .header__nav__item > a :hover {
+
     color: var(--first-accent-color);
 }
 
