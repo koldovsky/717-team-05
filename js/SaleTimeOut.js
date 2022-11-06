@@ -1,7 +1,7 @@
 // IIFE
 (function () {
 
-    const salecontainer = document.querySelector('.saleclock');
+    const salecontainer = document.querySelector('.sale__clock');
     const endSaleTime = new Date ('Nov 8 2022 00:00:00');
 
     function saleTimer () { 
@@ -20,7 +20,5 @@
     saleTimer(); 
     setInterval(saleFlash, 2000);
     setInterval(saleTimer, 4000);
-    
-    
-       
+ 
 })();
