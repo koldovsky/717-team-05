@@ -64,6 +64,7 @@ h2 {
 
 .header__nav__item>a :hover {
   color: var(--first-accent-color);
+  word-wrap: normal;
 }
 
 
@@ -105,9 +106,10 @@ h2 {
   margin-top: 25px;
 }
 
-.clock {
+.sale__clock{
   font-family: 'Barlow Condensed', sans-serif;
   font-weight: 800;
+  color: var(--second-accent-color);
   font-size: 100px;
 }
 
@@ -172,7 +174,9 @@ h2 {
   body.lock {
     overflow: hidden;
   }
-
+  .container__social__icon {
+    padding-top: 40px;
+  }
   .navigation-burger {
     display: block;
     position: relative;
