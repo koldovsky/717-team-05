@@ -1,13 +1,21 @@
 (function(){
-    const navBurgetrList = document.querySelector('#navburger');
-    const navigatinLinks = document.querySelectorAll('.header__nav__item>a');
-    navigatinLinks.forEach((navLink) => {
-        navLink.addEventListener("click", (_) => {
-            if(navBurgetrList.classList.contains('show')){
-              document.body.classList.remove("overflow: hidden; padding-right: 17px;");
-              navBurgetrList.classList.remove("show");
-            }
-        })
-     }
+    const iconBurger = document.querySelector(".navigation-burger");
+  const navigationsBody = document.querySelector(".navigation-wrapper");
+  iconBurger.addEventListener("click", function (e) {
+    document.body.classList.toggle("lock");
+    iconBurger.classList.toggle("active");
+    navigationsBody.classList.toggle("active");
+  });
+
+  const navLinks = document.querySelectorAll(".navigation__link");
+  navLinks.forEach((navLink) => {
+    navLink.addEventListener("click", (_) => {
+          if (iconBurger.classList.contains("active")) {
+              document.body.classList.remove("lock");
+              iconBurger.classList.remove("active");
+              navigationsBody.classList.remove("active");
+          }
+        }
     );
+  });
 })()
