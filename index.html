@@ -196,7 +196,7 @@
                 month, for any period!
 
             </p>
-            <div>
+            <div class="image-cars">
                 <!--BMW-->
                 <div>
                     <img src="img/1car.webp" alt="BMW i8" class="photo-of-cars">
@@ -426,6 +426,14 @@
                     <div class="staff__position">
                     </div>
                 </div>
+                <div class="random-quote">
+                    <div class="quote-button-wrapper">
+                        <a class="quote-button">Discover notable persons' quotes!</a>
+                    </div>
+                    <div class="quote-text"></div>
+                    <p class="quote"></p>
+                    <p class="author"></p>
+                </div>
             </div>
         </section>
         <!-- Vanya Yarovyi end-->
@@ -488,10 +496,21 @@
                     <div class="faq__subtitle">
                         <span>— FAQ</span>
                     </div>
+
+                    <!-- start -->
+
+                    <div class="game" id="game">
+                        <canvas id="canv" width=600 height=800></canvas>
+                    </div>
+                    <button id="gamebutton" class="gamebutton">Start game</button>
+                    <!-- end -->
+
+
                     <h2>Frequently Asked Questions</h2>
                     <p>We offer simple and transparent car rental conditions for any period. Look through the
                         information below, and if you have any questions, we will be happy to answer them.</p>
                 </div>
+
                 <div class="faq__grid">
                     <div class="faq">
                         <h3>How can I rent a car with your service?</h3>
@@ -535,7 +554,7 @@
                         <span>—</span>
                         FASTCAR HEADQUARTER
                     </p>
-                    
+
                     <h2 class="contacts__header">
                         Contacts</h2>
                     <div class="contacts__adress">
@@ -550,26 +569,27 @@
                             <a class="e-mail" href="fastcar@email.com">fastcar@email.com</a>
                         </p>
                     </div>
-                    <ul class="contacts-list list">
-                        <li class="contacts-list-item">
-                          <a class="contacts-icon-link" href=""
-                            ><svg class="icon">
-                              <use href="./img/sprite.svg#icon-facebook"></use></svg
-                          ></a>
-                        </li>
-                        <li class="contacts-list-item">
-                          <a class="contacts-icon-link" href=""
-                            ><svg class="icon">
-                              <use href="./img/symbol-defs.svg#instagram"></use></svg
-                          ></a>
-                        </li>
-                        <li class="contacts-list-item">
-                          <a class="contacts-icon-link" href=""
-                            ><svg class="icon">
-                              <use href="./img/symbol-defs.svg#youtube"></use></svg
-                          ></a>
-                        </li>
-                      </ul>
+
+
+                    <div class="social__icons">
+
+
+
+                        <div class="social__wrapper">
+                            <a rel="facebook" target="_blank" href="https://facebook.com/"><img class="facebook__icon"
+                                    src="img/facebook-icon.svg" alt="facebook-icon"></a>
+                        </div>
+                        <div class="social__wrapper">
+                            <a rel="instagram" target="_blank" href="https://instagram.com/"><img
+                                    class="instagram__icon" src="img/instagram-icon.svg" alt="instagram-icon"></a>
+                        </div>
+                        <div class="social__wrapper">
+                            <a rel="youtube" target="_blank" href="https://youtube.com/"><img class="youtube__icon"
+                                    src="img/youtube-icon.svg" alt="youtube-icon"> </a>
+                        </div>
+
+                    </div>
+
                     <button class="contacts__btn" type="button">rent a car</button>
                 </div>
 
@@ -618,7 +638,10 @@
     <script src="js/SaleTimeOut.js"></script>
     <script src="js/navbar-click.js"></script>
     <script src="js/staff-people.js"></script>
-    <script src="js/pickup.js "></script>
+     <script src="js/pickup.js "></script>
+     <script src="js/quotes.js"></script>
+    <script src="js/game-doodle.js"></script>
+
 </body>
 
 </html>

@@ -6,6 +6,14 @@
 
 /* Ubuntu Barlow Condensed */
 
+.gamebutton {
+    margin: auto;
+}
+
+.game {
+    display: none;
+}
+
 .faq__container {
     min-width: 320px;
     max-width: 1200px;
