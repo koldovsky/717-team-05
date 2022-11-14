@@ -1,16 +1,20 @@
 .contacts__general__info{
     min-height: 797px;
     background: url(../img/contactsbg.webp);
+    
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: left;
 }
     
 .contacts__wrapper{
     border: 1px solid #f6c43d;
+    background-color: #fff;
     padding: 0px 15px;
-    min-height: 540px;
-    min-width: 200px;
+    width: 470px;
+    height: 540px;
+    margin-left: -45px;
+    overflow: hidden;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -61,22 +65,7 @@
     margin-bottom: 30px;
 }
 
-.social__icons{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin: 0 auto;
-   
-   }
 
-   .social__wrapper{
-    margin-left: 9px;
-    width: 30px;
-    height: 30px;
-    margin-bottom: 29px;
-    
-    
-   }
 .contacts__btn{
 
     width: 155px;
@@ -94,5 +83,39 @@
 .contacts__map{   
     width: 735px;
   
+   
 
+}
+.contacts-list {
+    display: flex;
+    margin-top: 30px;
+}
+
+
+.icon {
+    width: 17px;
+    height: 17px;
+    fill: red;
+}
+
+.contacts-icon-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+   
+}
+
+.contacts-list-item {
+    width: 30px;
+    height: 30px;
+
+    margin-left: 10px;
+}
+
+.contacts-icon-link:hover,
+.contacts-icon-link:focus {
+    background-color: #f6c43d ;
 }

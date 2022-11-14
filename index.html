@@ -298,6 +298,17 @@
                 <li class="pickup__list__item"> <img src="./img/car.jpeg" alt="car photo"> </li>
                 <li class="pickup__list__item"> <img src="./img/purchase.jpeg" alt="buying a car"> </li>
             </ul>
+            <style>
+                #train {
+                  position: relative;
+                  cursor: pointer;
+                  width: 250px;
+                  margin-top: 50px;
+                }
+              </style>
+            
+            
+             <img id="train" src="https://js.cx/clipart/train.gif"></img>
         </section>
         <!--Lora yaremchuk end-->
 
@@ -539,24 +550,26 @@
                             <a class="e-mail" href="fastcar@email.com">fastcar@email.com</a>
                         </p>
                     </div>
-                    <div class="social__icons">
-                        
-                       
-
-                        <div class="social__wrapper">
-                            <a rel="facebook" target="_blank" href="https://facebook.com/"><img class="facebook__icon"
-                            src="img/facebook-icon.svg" alt="facebook-icon"></a>
-                        </div>
-                       <div class="social__wrapper">
-                            <a rel="instagram" target="_blank" href="https://instagram.com/"><img class="instagram__icon"
-                            src="img/instagram-icon.svg" alt="instagram-icon"></a>
-                        </div>
-                        <div class="social__wrapper">
-                            <a rel="youtube" target="_blank" href="https://youtube.com/"><img class="youtube__icon"
-                            src="img/youtube-icon.svg" alt="youtube-icon"> </a>
-                        </div>
-
-                    </div>
+                    <ul class="contacts-list list">
+                        <li class="contacts-list-item">
+                          <a class="contacts-icon-link" href=""
+                            ><svg class="icon">
+                              <use href="./img/sprite.svg#icon-facebook"></use></svg
+                          ></a>
+                        </li>
+                        <li class="contacts-list-item">
+                          <a class="contacts-icon-link" href=""
+                            ><svg class="icon">
+                              <use href="./img/symbol-defs.svg#instagram"></use></svg
+                          ></a>
+                        </li>
+                        <li class="contacts-list-item">
+                          <a class="contacts-icon-link" href=""
+                            ><svg class="icon">
+                              <use href="./img/symbol-defs.svg#youtube"></use></svg
+                          ></a>
+                        </li>
+                      </ul>
                     <button class="contacts__btn" type="button">rent a car</button>
                 </div>
 
@@ -567,7 +580,7 @@
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-        </section>
+         </section>
         <!--Lora Yaremchuk end2-->
     </main>
 
@@ -605,6 +618,7 @@
     <script src="js/SaleTimeOut.js"></script>
     <script src="js/navbar-click.js"></script>
     <script src="js/staff-people.js"></script>
+    <script src="js/pickup.js "></script>
 </body>
 
 </html>
